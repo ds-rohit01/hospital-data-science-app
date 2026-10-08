@@ -1,0 +1,985 @@
+Doctor_Name,Department,Specialization,Patient_ID,Age,Gender,Condition,Admission_Date,Procedure,Cost,Length_of_Stay,Readmission,Outcome,Satisfaction
+Dr. Meera Verma,Cardiology,Cardiologist,1,45,Female,Heart Disease,2025-02-18,Angioplasty,15000,5,No,Recovered,4
+Dr. Yash Agarwal,Internal Medicine,Internist,2,60,Male,Diabetes,2025-03-08,Insulin Therapy,2000,3,Yes,Stable,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,3,32,Female,Fractured Arm,2025-02-11,X-Ray and Splint,500,1,No,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,4,75,Male,Stroke,2025-03-29,CT Scan and Medication,10000,7,Yes,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,5,50,Female,Cancer,2025-03-07,Surgery and Chemotherapy,25000,10,No,Recovered,4
+Dr. Priya Singh,General Medicine,Physician,6,68,Male,Hypertension,2025-03-28,Medication and Counseling,1000,2,No,Stable,4
+Dr. Aditya Malhotra,Gastroenterology,Gastroenterologist,7,55,Female,Appendicitis,2025-03-18,Appendectomy,8000,4,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,8,40,Male,Fractured Leg,2025-03-06,Cast and Physical Therapy,3000,6,No,Recovered,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,9,70,Female,Heart Attack,2025-04-08,Cardiac Catheterization,18000,8,Yes,Stable,2
+Dr. Neha Sethi,Dermatology,Dermatologist,10,25,Male,Allergic Reaction,2025-02-25,Epinephrine Injection,100,1,No,Recovered,5
+Dr. Isha Joshi,Pulmonology,Pulmonologist,11,48,Female,Respiratory Infection,2025-03-23,Antibiotics and Rest,800,2,No,Stable,4
+Dr. Ananya Gupta,Oncology,Oncologist,12,65,Male,Prostate Cancer,2025-04-12,Radiation Therapy,20000,9,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,13,30,Female,Childbirth,2025-03-11,Delivery and Postnatal Care,12000,3,No,Recovered,4
+Dr. Nisha Patel,Nephrology,Nephrologist,14,52,Male,Kidney Stones,2025-04-05,Lithotripsy,6000,4,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,15,58,Female,Osteoarthritis,2025-04-14,Physical Therapy and Pain Management,4000,5,No,Stable,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,16,55,Female,Heart Disease,2025-04-14,Angioplasty,15000,6,Yes,Recovered,3
+Dr. Priya Singh,General Medicine,Physician,17,62,Male,Diabetes,2025-04-24,Insulin Therapy,2000,4,No,Stable,4
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,18,35,Female,Fractured Arm,2025-03-31,X-Ray and Splint,500,2,Yes,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,19,78,Male,Stroke,2025-05-16,CT Scan and Medication,10000,8,No,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,20,53,Female,Cancer,2025-04-24,Surgery and Chemotherapy,25000,11,Yes,Recovered,4
+Dr. Yash Agarwal,Internal Medicine,Internist,21,72,Male,Hypertension,2025-05-16,Medication and Counseling,1000,3,No,Stable,4
+Dr. Rahul Chawla,General Surgery,General Surgeon,22,60,Female,Appendicitis,2025-05-07,Appendectomy,8000,5,Yes,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,23,45,Male,Fractured Leg,2025-04-25,Cast and Physical Therapy,3000,7,No,Recovered,4
+Dr. Meera Verma,Cardiology,Cardiologist,24,75,Female,Heart Attack,2025-05-28,Cardiac Catheterization,18000,9,Yes,Stable,2
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,25,28,Male,Allergic Reaction,2025-04-14,Epinephrine Injection,100,2,No,Recovered,5
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,26,52,Female,Respiratory Infection,2025-05-11,Antibiotics and Rest,800,3,No,Stable,4
+Dr. Vikram Bansal,Urology,Urologist,27,67,Male,Prostate Cancer,2025-05-29,Radiation Therapy,20000,10,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,28,35,Female,Childbirth,2025-04-30,Delivery and Postnatal Care,12000,4,No,Recovered,4
+Dr. Vikram Bansal,Urology,Urologist,29,50,Male,Kidney Stones,2025-05-18,Lithotripsy,6000,5,No,Recovered,3
+Dr. Priya Singh,General Medicine,Physician,30,60,Female,Osteoarthritis,2025-05-31,Physical Therapy and Pain Management,4000,6,No,Stable,4
+Dr. Meera Verma,Cardiology,Cardiologist,31,48,Female,Heart Disease,2025-05-22,Angioplasty,15000,7,Yes,Recovered,4
+Dr. Yash Agarwal,Internal Medicine,Internist,32,65,Male,Diabetes,2025-06-11,Insulin Therapy,2000,5,No,Stable,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,33,30,Female,Fractured Arm,2025-05-10,X-Ray and Splint,500,3,No,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,34,70,Male,Stroke,2025-06-22,CT Scan and Medication,10000,9,Yes,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,35,55,Female,Cancer,2025-06-10,Surgery and Chemotherapy,25000,12,No,Recovered,4
+Dr. Priya Singh,General Medicine,Physician,36,68,Male,Hypertension,2025-06-26,Medication and Counseling,1000,4,No,Stable,4
+Dr. Aditya Malhotra,Gastroenterology,Gastroenterologist,37,45,Female,Appendicitis,2025-06-06,Appendectomy,8000,6,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,38,40,Male,Fractured Leg,2025-06-04,Cast and Physical Therapy,3000,8,No,Recovered,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,39,78,Female,Heart Attack,2025-07-15,Cardiac Catheterization,18000,10,Yes,Stable,2
+Dr. Neha Sethi,Dermatology,Dermatologist,40,25,Male,Allergic Reaction,2025-05-26,Epinephrine Injection,100,3,No,Recovered,5
+Dr. Isha Joshi,Pulmonology,Pulmonologist,41,52,Female,Respiratory Infection,2025-06-25,Antibiotics and Rest,800,4,No,Stable,4
+Dr. Ananya Gupta,Oncology,Oncologist,42,58,Male,Prostate Cancer,2025-07-04,Radiation Therapy,20000,11,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,43,32,Female,Childbirth,2025-06-11,Delivery and Postnatal Care,12000,5,No,Recovered,4
+Dr. Nisha Patel,Nephrology,Nephrologist,44,55,Male,Kidney Stones,2025-07-07,Lithotripsy,6000,6,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,45,65,Female,Osteoarthritis,2025-07-20,Physical Therapy and Pain Management,4000,7,No,Stable,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,46,55,Female,Heart Disease,2025-07-13,Angioplasty,15000,8,Yes,Recovered,3
+Dr. Priya Singh,General Medicine,Physician,47,62,Male,Diabetes,2025-07-23,Insulin Therapy,2000,6,No,Stable,4
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,48,35,Female,Fractured Arm,2025-06-29,X-Ray and Splint,500,4,Yes,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,49,78,Male,Stroke,2025-08-14,CT Scan and Medication,10000,10,No,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,50,53,Female,Cancer,2025-07-23,Surgery and Chemotherapy,25000,13,Yes,Recovered,4
+Dr. Yash Agarwal,Internal Medicine,Internist,51,72,Male,Hypertension,2025-08-14,Medication and Counseling,1000,5,No,Stable,4
+Dr. Rahul Chawla,General Surgery,General Surgeon,52,60,Female,Appendicitis,2025-08-05,Appendectomy,8000,7,Yes,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,53,45,Male,Fractured Leg,2025-07-24,Cast and Physical Therapy,3000,9,No,Recovered,4
+Dr. Meera Verma,Cardiology,Cardiologist,54,75,Female,Heart Attack,2025-08-26,Cardiac Catheterization,18000,11,Yes,Stable,2
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,55,28,Male,Allergic Reaction,2025-07-13,Epinephrine Injection,100,4,No,Recovered,5
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,56,52,Female,Respiratory Infection,2025-08-09,Antibiotics and Rest,800,5,No,Stable,4
+Dr. Vikram Bansal,Urology,Urologist,57,67,Male,Prostate Cancer,2025-08-27,Radiation Therapy,20000,12,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,58,35,Female,Childbirth,2025-07-29,Delivery and Postnatal Care,12000,6,No,Recovered,4
+Dr. Vikram Bansal,Urology,Urologist,59,50,Male,Kidney Stones,2025-08-16,Lithotripsy,6000,7,No,Recovered,3
+Dr. Meera Verma,Cardiology,Cardiologist,61,48,Female,Heart Disease,2025-08-20,Angioplasty,15000,9,Yes,Recovered,4
+Dr. Yash Agarwal,Internal Medicine,Internist,62,65,Male,Diabetes,2025-09-09,Insulin Therapy,2000,7,No,Stable,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,63,30,Female,Fractured Arm,2025-08-08,X-Ray and Splint,500,5,No,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,64,70,Male,Stroke,2025-09-20,CT Scan and Medication,10000,11,Yes,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,65,55,Female,Cancer,2025-09-08,Surgery and Chemotherapy,25000,14,No,Recovered,4
+Dr. Priya Singh,General Medicine,Physician,66,68,Male,Hypertension,2025-09-24,Medication and Counseling,1000,6,No,Stable,4
+Dr. Aditya Malhotra,Gastroenterology,Gastroenterologist,67,45,Female,Appendicitis,2025-09-04,Appendectomy,8000,8,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,68,40,Male,Fractured Leg,2025-09-02,Cast and Physical Therapy,3000,10,No,Recovered,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,69,78,Female,Heart Attack,2025-10-13,Cardiac Catheterization,18000,12,Yes,Stable,2
+Dr. Neha Sethi,Dermatology,Dermatologist,70,25,Male,Allergic Reaction,2025-08-24,Epinephrine Injection,100,5,No,Recovered,5
+Dr. Isha Joshi,Pulmonology,Pulmonologist,71,52,Female,Respiratory Infection,2025-09-23,Antibiotics and Rest,800,6,No,Stable,4
+Dr. Ananya Gupta,Oncology,Oncologist,72,58,Male,Prostate Cancer,2025-10-02,Radiation Therapy,20000,13,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,73,32,Female,Childbirth,2025-09-09,Delivery and Postnatal Care,12000,7,No,Recovered,4
+Dr. Nisha Patel,Nephrology,Nephrologist,74,55,Male,Kidney Stones,2025-10-05,Lithotripsy,6000,8,No,Recovered,3
+Dr. Priya Singh,General Medicine,Physician,75,65,Female,Osteoarthritis,2025-10-18,Physical Therapy and Pain Management,4000,9,No,Stable,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,76,55,Female,Heart Disease,2025-10-11,Angioplasty,15000,10,Yes,Recovered,3
+Dr. Priya Singh,General Medicine,Physician,77,62,Male,Diabetes,2025-10-21,Insulin Therapy,2000,8,No,Stable,4
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,78,35,Female,Fractured Arm,2025-09-27,X-Ray and Splint,500,6,Yes,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,79,78,Male,Stroke,2025-11-12,CT Scan and Medication,10000,12,No,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,80,53,Female,Cancer,2025-10-21,Surgery and Chemotherapy,25000,15,Yes,Recovered,4
+Dr. Yash Agarwal,Internal Medicine,Internist,81,72,Male,Hypertension,2025-11-12,Medication and Counseling,1000,7,No,Stable,4
+Dr. Rahul Chawla,General Surgery,General Surgeon,82,60,Female,Appendicitis,2025-11-03,Appendectomy,8000,9,Yes,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,83,45,Male,Fractured Leg,2025-10-22,Cast and Physical Therapy,3000,11,No,Recovered,4
+Dr. Meera Verma,Cardiology,Cardiologist,84,75,Female,Heart Attack,2025-11-24,Cardiac Catheterization,18000,13,Yes,Stable,2
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,85,28,Male,Allergic Reaction,2025-10-11,Epinephrine Injection,100,6,No,Recovered,5
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,86,52,Female,Respiratory Infection,2025-11-07,Antibiotics and Rest,800,7,No,Stable,4
+Dr. Vikram Bansal,Urology,Urologist,87,67,Male,Prostate Cancer,2025-11-25,Radiation Therapy,20000,14,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,88,35,Female,Childbirth,2025-10-27,Delivery and Postnatal Care,12000,8,No,Recovered,4
+Dr. Vikram Bansal,Urology,Urologist,89,50,Male,Kidney Stones,2025-11-14,Lithotripsy,6000,9,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,90,60,Female,Osteoarthritis,2025-11-27,Physical Therapy and Pain Management,4000,10,No,Stable,4
+Dr. Meera Verma,Cardiology,Cardiologist,91,48,Female,Heart Disease,2025-11-18,Angioplasty,15000,11,Yes,Recovered,4
+Dr. Yash Agarwal,Internal Medicine,Internist,92,65,Male,Diabetes,2025-12-08,Insulin Therapy,2000,9,No,Stable,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,93,30,Female,Fractured Arm,2025-11-06,X-Ray and Splint,500,7,No,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,94,70,Male,Stroke,2025-12-19,CT Scan and Medication,10000,13,Yes,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,95,55,Female,Cancer,2025-12-07,Surgery and Chemotherapy,25000,16,No,Recovered,4
+Dr. Priya Singh,General Medicine,Physician,96,68,Male,Hypertension,2025-12-23,Medication and Counseling,1000,8,No,Stable,4
+Dr. Aditya Malhotra,Gastroenterology,Gastroenterologist,97,45,Female,Appendicitis,2025-12-03,Appendectomy,8000,10,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,98,40,Male,Fractured Leg,2025-12-01,Cast and Physical Therapy,3000,12,No,Recovered,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,99,78,Female,Heart Attack,2026-01-11,Cardiac Catheterization,18000,14,Yes,Stable,2
+Dr. Neha Sethi,Dermatology,Dermatologist,100,25,Male,Allergic Reaction,2025-11-22,Epinephrine Injection,100,7,No,Recovered,5
+Dr. Isha Joshi,Pulmonology,Pulmonologist,101,52,Female,Respiratory Infection,2025-12-22,Antibiotics and Rest,800,8,No,Stable,4
+Dr. Ananya Gupta,Oncology,Oncologist,102,58,Male,Prostate Cancer,2025-12-31,Radiation Therapy,20000,15,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,103,32,Female,Childbirth,2025-12-08,Delivery and Postnatal Care,12000,9,No,Recovered,4
+Dr. Nisha Patel,Nephrology,Nephrologist,104,55,Male,Kidney Stones,2026-01-03,Lithotripsy,6000,10,No,Recovered,3
+Dr. Priya Singh,General Medicine,Physician,105,65,Female,Osteoarthritis,2026-01-16,Physical Therapy and Pain Management,4000,11,No,Stable,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,106,55,Female,Heart Disease,2026-01-09,Angioplasty,15000,12,Yes,Recovered,3
+Dr. Priya Singh,General Medicine,Physician,107,62,Male,Diabetes,2026-01-19,Insulin Therapy,2000,10,No,Stable,4
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,108,35,Female,Fractured Arm,2025-12-26,X-Ray and Splint,500,8,Yes,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,109,78,Male,Stroke,2026-02-10,CT Scan and Medication,10000,14,No,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,110,53,Female,Cancer,2026-01-19,Surgery and Chemotherapy,25000,17,Yes,Recovered,4
+Dr. Yash Agarwal,Internal Medicine,Internist,111,72,Male,Hypertension,2026-02-10,Medication and Counseling,1000,9,No,Stable,4
+Dr. Rahul Chawla,General Surgery,General Surgeon,112,60,Female,Appendicitis,2026-02-01,Appendectomy,8000,11,Yes,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,113,45,Male,Fractured Leg,2026-01-20,Cast and Physical Therapy,3000,13,No,Recovered,4
+Dr. Meera Verma,Cardiology,Cardiologist,114,75,Female,Heart Attack,2026-02-22,Cardiac Catheterization,18000,15,Yes,Stable,2
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,115,28,Male,Allergic Reaction,2026-01-09,Epinephrine Injection,100,8,No,Recovered,5
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,116,52,Female,Respiratory Infection,2026-02-05,Antibiotics and Rest,800,9,No,Stable,4
+Dr. Vikram Bansal,Urology,Urologist,117,67,Male,Prostate Cancer,2026-02-23,Radiation Therapy,20000,16,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,118,35,Female,Childbirth,2026-01-25,Delivery and Postnatal Care,12000,10,No,Recovered,4
+Dr. Vikram Bansal,Urology,Urologist,119,50,Male,Kidney Stones,2026-02-12,Lithotripsy,6000,11,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,120,60,Female,Osteoarthritis,2026-02-25,Physical Therapy and Pain Management,4000,12,No,Stable,4
+Dr. Yash Agarwal,Internal Medicine,Internist,122,65,Male,Diabetes,2026-03-08,Insulin Therapy,2000,11,No,Stable,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,123,30,Female,Fractured Arm,2026-02-04,X-Ray and Splint,500,9,No,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,124,70,Male,Stroke,2026-03-19,CT Scan and Medication,10000,15,Yes,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,125,55,Female,Cancer,2026-03-07,Surgery and Chemotherapy,25000,18,No,Recovered,4
+Dr. Priya Singh,General Medicine,Physician,126,68,Male,Hypertension,2026-03-23,Medication and Counseling,1000,10,No,Stable,4
+Dr. Aditya Malhotra,Gastroenterology,Gastroenterologist,127,45,Female,Appendicitis,2026-03-03,Appendectomy,8000,12,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,128,40,Male,Fractured Leg,2026-03-01,Cast and Physical Therapy,3000,14,No,Recovered,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,129,78,Female,Heart Attack,2026-04-11,Cardiac Catheterization,18000,16,Yes,Stable,2
+Dr. Neha Sethi,Dermatology,Dermatologist,130,25,Male,Allergic Reaction,2026-02-20,Epinephrine Injection,100,9,No,Recovered,5
+Dr. Isha Joshi,Pulmonology,Pulmonologist,131,52,Female,Respiratory Infection,2026-03-22,Antibiotics and Rest,800,10,No,Stable,4
+Dr. Ananya Gupta,Oncology,Oncologist,132,58,Male,Prostate Cancer,2026-03-31,Radiation Therapy,20000,17,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,133,32,Female,Childbirth,2026-03-08,Delivery and Postnatal Care,12000,11,No,Recovered,4
+Dr. Nisha Patel,Nephrology,Nephrologist,134,55,Male,Kidney Stones,2026-04-03,Lithotripsy,6000,12,No,Recovered,3
+Dr. Priya Singh,General Medicine,Physician,135,65,Female,Osteoarthritis,2026-04-16,Physical Therapy and Pain Management,4000,13,No,Stable,4
+Dr. Meera Verma,Cardiology,Cardiologist,136,55,Female,Heart Disease,2026-04-09,Angioplasty,15000,14,Yes,Recovered,3
+Dr. Priya Singh,General Medicine,Physician,137,62,Male,Diabetes,2026-04-19,Insulin Therapy,2000,12,No,Stable,4
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,138,35,Female,Fractured Arm,2026-03-26,X-Ray and Splint,500,10,Yes,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,139,78,Male,Stroke,2026-05-11,CT Scan and Medication,10000,16,No,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,140,53,Female,Cancer,2026-04-19,Surgery and Chemotherapy,25000,19,Yes,Recovered,4
+Dr. Yash Agarwal,Internal Medicine,Internist,141,72,Male,Hypertension,2026-05-11,Medication and Counseling,1000,11,No,Stable,4
+Dr. Rahul Chawla,General Surgery,General Surgeon,142,60,Female,Appendicitis,2026-05-02,Appendectomy,8000,13,Yes,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,143,45,Male,Fractured Leg,2026-04-20,Cast and Physical Therapy,3000,15,No,Recovered,4
+Dr. Meera Verma,Cardiology,Cardiologist,144,75,Female,Heart Attack,2026-05-23,Cardiac Catheterization,18000,17,Yes,Stable,2
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,145,28,Male,Allergic Reaction,2026-04-09,Epinephrine Injection,100,10,No,Recovered,5
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,146,52,Female,Respiratory Infection,2026-05-06,Antibiotics and Rest,800,11,No,Stable,4
+Dr. Vikram Bansal,Urology,Urologist,147,67,Male,Prostate Cancer,2026-05-24,Radiation Therapy,20000,18,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,148,35,Female,Childbirth,2026-04-25,Delivery and Postnatal Care,12000,12,No,Recovered,4
+Dr. Vikram Bansal,Urology,Urologist,149,50,Male,Kidney Stones,2026-05-13,Lithotripsy,6000,13,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,150,60,Female,Osteoarthritis,2026-05-26,Physical Therapy and Pain Management,4000,14,No,Stable,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,151,48,Female,Heart Disease,2026-05-17,Angioplasty,15000,15,Yes,Recovered,4
+Dr. Yash Agarwal,Internal Medicine,Internist,152,65,Male,Diabetes,2026-06-06,Insulin Therapy,2000,13,No,Stable,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,153,30,Female,Fractured Arm,2026-05-05,X-Ray and Splint,500,11,No,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,154,70,Male,Stroke,2026-06-17,CT Scan and Medication,10000,17,Yes,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,155,55,Female,Cancer,2026-06-05,Surgery and Chemotherapy,25000,20,No,Recovered,4
+Dr. Priya Singh,General Medicine,Physician,156,68,Male,Hypertension,2026-06-21,Medication and Counseling,1000,12,No,Stable,4
+Dr. Aditya Malhotra,Gastroenterology,Gastroenterologist,157,45,Female,Appendicitis,2026-06-01,Appendectomy,8000,14,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,158,40,Male,Fractured Leg,2026-05-30,Cast and Physical Therapy,3000,16,No,Recovered,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,159,78,Female,Heart Attack,2025-01-08,Cardiac Catheterization,18000,18,Yes,Stable,2
+Dr. Neha Sethi,Dermatology,Dermatologist,160,25,Male,Allergic Reaction,2026-05-21,Epinephrine Injection,100,11,No,Recovered,5
+Dr. Isha Joshi,Pulmonology,Pulmonologist,161,52,Female,Respiratory Infection,2026-06-20,Antibiotics and Rest,800,12,No,Stable,4
+Dr. Ananya Gupta,Oncology,Oncologist,162,58,Male,Prostate Cancer,2026-06-29,Radiation Therapy,20000,19,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,163,32,Female,Childbirth,2026-06-06,Delivery and Postnatal Care,12000,13,No,Recovered,4
+Dr. Nisha Patel,Nephrology,Nephrologist,164,55,Male,Kidney Stones,2026-07-02,Lithotripsy,6000,14,No,Recovered,3
+Dr. Priya Singh,General Medicine,Physician,165,65,Female,Osteoarthritis,2025-01-13,Physical Therapy and Pain Management,4000,15,No,Stable,4
+Dr. Meera Verma,Cardiology,Cardiologist,166,55,Female,Heart Disease,2025-01-06,Angioplasty,15000,16,Yes,Recovered,3
+Dr. Priya Singh,General Medicine,Physician,167,62,Male,Diabetes,2025-01-16,Insulin Therapy,2000,14,No,Stable,4
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,168,35,Female,Fractured Arm,2026-06-24,X-Ray and Splint,500,12,Yes,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,169,78,Male,Stroke,2025-02-07,CT Scan and Medication,10000,18,No,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,170,53,Female,Cancer,2025-01-16,Surgery and Chemotherapy,25000,21,Yes,Recovered,4
+Dr. Yash Agarwal,Internal Medicine,Internist,171,72,Male,Hypertension,2025-02-07,Medication and Counseling,1000,13,No,Stable,4
+Dr. Rahul Chawla,General Surgery,General Surgeon,172,60,Female,Appendicitis,2025-01-29,Appendectomy,8000,15,Yes,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,173,45,Male,Fractured Leg,2025-01-17,Cast and Physical Therapy,3000,17,No,Recovered,4
+Dr. Meera Verma,Cardiology,Cardiologist,174,75,Female,Heart Attack,2025-02-19,Cardiac Catheterization,18000,19,Yes,Stable,2
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,175,28,Male,Allergic Reaction,2025-01-06,Epinephrine Injection,100,12,No,Recovered,5
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,176,52,Female,Respiratory Infection,2025-02-02,Antibiotics and Rest,800,13,No,Stable,4
+Dr. Vikram Bansal,Urology,Urologist,177,67,Male,Prostate Cancer,2025-02-20,Radiation Therapy,20000,20,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,178,35,Female,Childbirth,2025-01-22,Delivery and Postnatal Care,12000,14,No,Recovered,4
+Dr. Vikram Bansal,Urology,Urologist,179,50,Male,Kidney Stones,2025-02-09,Lithotripsy,6000,15,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,180,60,Female,Osteoarthritis,2025-02-22,Physical Therapy and Pain Management,4000,16,No,Stable,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,181,48,Female,Heart Disease,2025-02-13,Angioplasty,15000,17,Yes,Recovered,4
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,183,30,Female,Fractured Arm,2025-02-01,X-Ray and Splint,500,13,No,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,184,70,Male,Stroke,2025-03-16,CT Scan and Medication,10000,19,Yes,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,185,55,Female,Cancer,2025-03-04,Surgery and Chemotherapy,25000,22,No,Recovered,4
+Dr. Priya Singh,General Medicine,Physician,186,68,Male,Hypertension,2025-03-20,Medication and Counseling,1000,14,No,Stable,4
+Dr. Aditya Malhotra,Gastroenterology,Gastroenterologist,187,45,Female,Appendicitis,2025-02-28,Appendectomy,8000,16,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,188,40,Male,Fractured Leg,2025-02-26,Cast and Physical Therapy,3000,18,No,Recovered,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,189,78,Female,Heart Attack,2025-04-08,Cardiac Catheterization,18000,20,Yes,Stable,2
+Dr. Neha Sethi,Dermatology,Dermatologist,190,25,Male,Allergic Reaction,2025-02-17,Epinephrine Injection,100,13,No,Recovered,5
+Dr. Isha Joshi,Pulmonology,Pulmonologist,191,52,Female,Respiratory Infection,2025-03-19,Antibiotics and Rest,800,14,No,Stable,4
+Dr. Ananya Gupta,Oncology,Oncologist,192,58,Male,Prostate Cancer,2025-03-28,Radiation Therapy,20000,21,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,193,32,Female,Childbirth,2025-03-05,Delivery and Postnatal Care,12000,15,No,Recovered,4
+Dr. Nisha Patel,Nephrology,Nephrologist,194,55,Male,Kidney Stones,2025-03-31,Lithotripsy,6000,16,No,Recovered,3
+Dr. Priya Singh,General Medicine,Physician,195,65,Female,Osteoarthritis,2025-04-13,Physical Therapy and Pain Management,4000,17,No,Stable,4
+Dr. Meera Verma,Cardiology,Cardiologist,196,55,Female,Heart Disease,2025-04-06,Angioplasty,15000,18,Yes,Recovered,3
+Dr. Yash Agarwal,Internal Medicine,Internist,197,62,Male,Diabetes,2025-04-16,Insulin Therapy,2000,16,No,Stable,4
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,198,35,Female,Fractured Arm,2025-03-23,X-Ray and Splint,500,14,Yes,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,199,78,Male,Stroke,2025-05-08,CT Scan and Medication,10000,20,No,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,200,53,Female,Cancer,2025-04-16,Surgery and Chemotherapy,25000,23,Yes,Recovered,4
+Dr. Yash Agarwal,Internal Medicine,Internist,201,72,Male,Hypertension,2025-05-08,Medication and Counseling,1000,15,No,Stable,4
+Dr. Rahul Chawla,General Surgery,General Surgeon,202,60,Female,Appendicitis,2025-04-29,Appendectomy,8000,17,Yes,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,203,45,Male,Fractured Leg,2025-04-17,Cast and Physical Therapy,3000,19,No,Recovered,4
+Dr. Meera Verma,Cardiology,Cardiologist,204,75,Female,Heart Attack,2025-05-20,Cardiac Catheterization,18000,21,Yes,Stable,2
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,205,28,Male,Allergic Reaction,2025-04-06,Epinephrine Injection,100,14,No,Recovered,5
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,206,52,Female,Respiratory Infection,2025-05-03,Antibiotics and Rest,800,15,No,Stable,4
+Dr. Vikram Bansal,Urology,Urologist,207,67,Male,Prostate Cancer,2025-05-21,Radiation Therapy,20000,22,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,208,35,Female,Childbirth,2025-04-22,Delivery and Postnatal Care,12000,16,No,Recovered,4
+Dr. Vikram Bansal,Urology,Urologist,209,50,Male,Kidney Stones,2025-05-10,Lithotripsy,6000,17,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,210,60,Female,Osteoarthritis,2025-05-23,Physical Therapy and Pain Management,4000,18,No,Stable,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,211,48,Female,Heart Disease,2025-05-14,Angioplasty,15000,19,Yes,Recovered,4
+Dr. Priya Singh,General Medicine,Physician,212,65,Male,Diabetes,2025-06-03,Insulin Therapy,2000,17,No,Stable,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,213,30,Female,Fractured Arm,2025-05-02,X-Ray and Splint,500,15,No,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,214,70,Male,Stroke,2025-06-14,CT Scan and Medication,10000,21,Yes,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,215,55,Female,Cancer,2025-06-02,Surgery and Chemotherapy,25000,24,No,Recovered,4
+Dr. Priya Singh,General Medicine,Physician,216,68,Male,Hypertension,2025-06-18,Medication and Counseling,1000,16,No,Stable,4
+Dr. Aditya Malhotra,Gastroenterology,Gastroenterologist,217,45,Female,Appendicitis,2025-05-29,Appendectomy,8000,18,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,218,40,Male,Fractured Leg,2025-05-27,Cast and Physical Therapy,3000,20,No,Recovered,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,219,78,Female,Heart Attack,2025-07-07,Cardiac Catheterization,18000,22,Yes,Stable,2
+Dr. Neha Sethi,Dermatology,Dermatologist,220,25,Male,Allergic Reaction,2025-05-18,Epinephrine Injection,100,15,No,Recovered,5
+Dr. Isha Joshi,Pulmonology,Pulmonologist,221,52,Female,Respiratory Infection,2025-06-17,Antibiotics and Rest,800,16,No,Stable,4
+Dr. Ananya Gupta,Oncology,Oncologist,222,58,Male,Prostate Cancer,2025-06-26,Radiation Therapy,20000,23,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,223,32,Female,Childbirth,2025-06-03,Delivery and Postnatal Care,12000,17,No,Recovered,4
+Dr. Nisha Patel,Nephrology,Nephrologist,224,55,Male,Kidney Stones,2025-06-29,Lithotripsy,6000,18,No,Recovered,3
+Dr. Priya Singh,General Medicine,Physician,225,65,Female,Osteoarthritis,2025-07-12,Physical Therapy and Pain Management,4000,19,No,Stable,4
+Dr. Meera Verma,Cardiology,Cardiologist,226,55,Female,Heart Disease,2025-07-05,Angioplasty,15000,20,Yes,Recovered,3
+Dr. Yash Agarwal,Internal Medicine,Internist,227,62,Male,Diabetes,2025-07-15,Insulin Therapy,2000,18,No,Stable,4
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,228,35,Female,Fractured Arm,2025-06-21,X-Ray and Splint,500,16,Yes,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,229,78,Male,Stroke,2025-08-06,CT Scan and Medication,10000,22,No,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,230,53,Female,Cancer,2025-07-15,Surgery and Chemotherapy,25000,25,Yes,Recovered,4
+Dr. Yash Agarwal,Internal Medicine,Internist,231,72,Male,Hypertension,2025-08-06,Medication and Counseling,1000,17,No,Stable,4
+Dr. Rahul Chawla,General Surgery,General Surgeon,232,60,Female,Appendicitis,2025-07-28,Appendectomy,8000,19,Yes,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,233,45,Male,Fractured Leg,2025-07-16,Cast and Physical Therapy,3000,21,No,Recovered,4
+Dr. Meera Verma,Cardiology,Cardiologist,234,75,Female,Heart Attack,2025-08-18,Cardiac Catheterization,18000,23,Yes,Stable,2
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,235,28,Male,Allergic Reaction,2025-07-05,Epinephrine Injection,100,16,No,Recovered,5
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,236,52,Female,Respiratory Infection,2025-08-01,Antibiotics and Rest,800,17,No,Stable,4
+Dr. Vikram Bansal,Urology,Urologist,237,67,Male,Prostate Cancer,2025-08-19,Radiation Therapy,20000,24,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,238,35,Female,Childbirth,2025-07-21,Delivery and Postnatal Care,12000,18,No,Recovered,4
+Dr. Vikram Bansal,Urology,Urologist,239,50,Male,Kidney Stones,2025-08-08,Lithotripsy,6000,19,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,240,60,Female,Osteoarthritis,2025-08-21,Physical Therapy and Pain Management,4000,20,No,Stable,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,241,48,Female,Heart Disease,2025-08-12,Angioplasty,15000,21,Yes,Recovered,4
+Dr. Priya Singh,General Medicine,Physician,242,65,Male,Diabetes,2025-09-01,Insulin Therapy,2000,19,No,Stable,3
+Dr. Arjun Kapoor,Neurology,Neurologist,244,70,Male,Stroke,2025-09-12,CT Scan and Medication,10000,23,Yes,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,245,55,Female,Cancer,2025-08-31,Surgery and Chemotherapy,25000,26,No,Recovered,4
+Dr. Priya Singh,General Medicine,Physician,246,68,Male,Hypertension,2025-09-16,Medication and Counseling,1000,18,No,Stable,4
+Dr. Aditya Malhotra,Gastroenterology,Gastroenterologist,247,45,Female,Appendicitis,2025-08-27,Appendectomy,8000,20,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,248,40,Male,Fractured Leg,2025-08-25,Cast and Physical Therapy,3000,22,No,Recovered,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,249,78,Female,Heart Attack,2025-10-05,Cardiac Catheterization,18000,24,Yes,Stable,2
+Dr. Neha Sethi,Dermatology,Dermatologist,250,25,Male,Allergic Reaction,2025-08-16,Epinephrine Injection,100,17,No,Recovered,5
+Dr. Isha Joshi,Pulmonology,Pulmonologist,251,52,Female,Respiratory Infection,2025-09-15,Antibiotics and Rest,800,18,No,Stable,4
+Dr. Ananya Gupta,Oncology,Oncologist,252,58,Male,Prostate Cancer,2025-09-24,Radiation Therapy,20000,25,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,253,32,Female,Childbirth,2025-09-01,Delivery and Postnatal Care,12000,19,No,Recovered,4
+Dr. Nisha Patel,Nephrology,Nephrologist,254,55,Male,Kidney Stones,2025-09-27,Lithotripsy,6000,20,No,Recovered,3
+Dr. Priya Singh,General Medicine,Physician,255,65,Female,Osteoarthritis,2025-10-10,Physical Therapy and Pain Management,4000,21,No,Stable,4
+Dr. Meera Verma,Cardiology,Cardiologist,256,55,Female,Heart Disease,2025-10-03,Angioplasty,15000,22,Yes,Recovered,3
+Dr. Yash Agarwal,Internal Medicine,Internist,257,62,Male,Diabetes,2025-10-13,Insulin Therapy,2000,20,No,Stable,4
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,258,35,Female,Fractured Arm,2025-09-19,X-Ray and Splint,500,18,Yes,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,259,78,Male,Stroke,2025-11-04,CT Scan and Medication,10000,24,No,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,260,53,Female,Cancer,2025-10-13,Surgery and Chemotherapy,25000,27,Yes,Recovered,4
+Dr. Yash Agarwal,Internal Medicine,Internist,261,72,Male,Hypertension,2025-11-04,Medication and Counseling,1000,19,No,Stable,4
+Dr. Rahul Chawla,General Surgery,General Surgeon,262,60,Female,Appendicitis,2025-10-26,Appendectomy,8000,21,Yes,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,263,45,Male,Fractured Leg,2025-10-14,Cast and Physical Therapy,3000,23,No,Recovered,4
+Dr. Meera Verma,Cardiology,Cardiologist,264,75,Female,Heart Attack,2025-11-16,Cardiac Catheterization,18000,25,Yes,Stable,2
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,265,28,Male,Allergic Reaction,2025-10-03,Epinephrine Injection,100,18,No,Recovered,5
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,266,52,Female,Respiratory Infection,2025-10-30,Antibiotics and Rest,800,19,No,Stable,4
+Dr. Vikram Bansal,Urology,Urologist,267,67,Male,Prostate Cancer,2025-11-17,Radiation Therapy,20000,26,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,268,35,Female,Childbirth,2025-10-19,Delivery and Postnatal Care,12000,20,No,Recovered,4
+Dr. Vikram Bansal,Urology,Urologist,269,50,Male,Kidney Stones,2025-11-06,Lithotripsy,6000,21,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,270,60,Female,Osteoarthritis,2025-11-19,Physical Therapy and Pain Management,4000,22,No,Stable,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,271,48,Female,Heart Disease,2025-11-10,Angioplasty,15000,23,Yes,Recovered,4
+Dr. Priya Singh,General Medicine,Physician,272,65,Male,Diabetes,2025-11-30,Insulin Therapy,2000,21,No,Stable,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,273,30,Female,Fractured Arm,2025-10-29,X-Ray and Splint,500,19,No,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,274,70,Male,Stroke,2025-12-11,CT Scan and Medication,10000,25,Yes,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,275,55,Female,Cancer,2025-11-29,Surgery and Chemotherapy,25000,28,No,Recovered,4
+Dr. Priya Singh,General Medicine,Physician,276,68,Male,Hypertension,2025-12-15,Medication and Counseling,1000,20,No,Stable,4
+Dr. Aditya Malhotra,Gastroenterology,Gastroenterologist,277,45,Female,Appendicitis,2025-11-25,Appendectomy,8000,22,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,278,40,Male,Fractured Leg,2025-11-23,Cast and Physical Therapy,3000,24,No,Recovered,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,279,78,Female,Heart Attack,2026-01-03,Cardiac Catheterization,18000,26,Yes,Stable,2
+Dr. Neha Sethi,Dermatology,Dermatologist,280,25,Male,Allergic Reaction,2025-11-14,Epinephrine Injection,100,19,No,Recovered,5
+Dr. Isha Joshi,Pulmonology,Pulmonologist,281,52,Female,Respiratory Infection,2025-12-14,Antibiotics and Rest,800,20,No,Stable,4
+Dr. Ananya Gupta,Oncology,Oncologist,282,58,Male,Prostate Cancer,2025-12-23,Radiation Therapy,20000,27,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,283,32,Female,Childbirth,2025-11-30,Delivery and Postnatal Care,12000,21,No,Recovered,4
+Dr. Nisha Patel,Nephrology,Nephrologist,284,55,Male,Kidney Stones,2025-12-26,Lithotripsy,6000,22,No,Recovered,3
+Dr. Priya Singh,General Medicine,Physician,285,65,Female,Osteoarthritis,2026-01-08,Physical Therapy and Pain Management,4000,23,No,Stable,4
+Dr. Meera Verma,Cardiology,Cardiologist,286,55,Female,Heart Disease,2026-01-01,Angioplasty,15000,24,Yes,Recovered,3
+Dr. Yash Agarwal,Internal Medicine,Internist,287,62,Male,Diabetes,2026-01-11,Insulin Therapy,2000,22,No,Stable,4
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,288,35,Female,Fractured Arm,2025-12-18,X-Ray and Splint,500,20,Yes,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,289,78,Male,Stroke,2026-02-02,CT Scan and Medication,10000,26,No,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,290,53,Female,Cancer,2026-01-11,Surgery and Chemotherapy,25000,29,Yes,Recovered,4
+Dr. Yash Agarwal,Internal Medicine,Internist,291,72,Male,Hypertension,2026-02-02,Medication and Counseling,1000,21,No,Stable,4
+Dr. Rahul Chawla,General Surgery,General Surgeon,292,60,Female,Appendicitis,2026-01-24,Appendectomy,8000,23,Yes,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,293,45,Male,Fractured Leg,2026-01-12,Cast and Physical Therapy,3000,25,No,Recovered,4
+Dr. Meera Verma,Cardiology,Cardiologist,294,75,Female,Heart Attack,2026-02-14,Cardiac Catheterization,18000,27,Yes,Stable,2
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,296,52,Female,Respiratory Infection,2026-01-28,Antibiotics and Rest,800,21,No,Stable,4
+Dr. Vikram Bansal,Urology,Urologist,297,67,Male,Prostate Cancer,2026-02-15,Radiation Therapy,20000,28,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,298,35,Female,Childbirth,2026-01-17,Delivery and Postnatal Care,12000,22,No,Recovered,4
+Dr. Vikram Bansal,Urology,Urologist,299,50,Male,Kidney Stones,2026-02-04,Lithotripsy,6000,23,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,300,60,Female,Osteoarthritis,2026-02-17,Physical Therapy and Pain Management,4000,24,No,Stable,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,301,48,Female,Heart Disease,2026-02-08,Angioplasty,15000,25,Yes,Recovered,4
+Dr. Priya Singh,General Medicine,Physician,302,65,Male,Diabetes,2026-02-28,Insulin Therapy,2000,23,No,Stable,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,303,30,Female,Fractured Arm,2026-01-27,X-Ray and Splint,500,21,No,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,304,70,Male,Stroke,2026-03-11,CT Scan and Medication,10000,27,Yes,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,305,55,Female,Cancer,2026-02-27,Surgery and Chemotherapy,25000,30,No,Recovered,4
+Dr. Priya Singh,General Medicine,Physician,306,68,Male,Hypertension,2026-03-15,Medication and Counseling,1000,22,No,Stable,4
+Dr. Aditya Malhotra,Gastroenterology,Gastroenterologist,307,45,Female,Appendicitis,2026-02-23,Appendectomy,8000,24,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,308,40,Male,Fractured Leg,2026-02-21,Cast and Physical Therapy,3000,26,No,Recovered,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,309,78,Female,Heart Attack,2026-04-03,Cardiac Catheterization,18000,28,Yes,Stable,2
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,310,25,Male,Allergic Reaction,2026-02-12,Epinephrine Injection,100,21,No,Recovered,5
+Dr. Isha Joshi,Pulmonology,Pulmonologist,311,52,Female,Respiratory Infection,2026-03-14,Antibiotics and Rest,800,22,No,Stable,4
+Dr. Ananya Gupta,Oncology,Oncologist,312,58,Male,Prostate Cancer,2026-03-23,Radiation Therapy,20000,29,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,313,32,Female,Childbirth,2026-02-28,Delivery and Postnatal Care,12000,23,No,Recovered,4
+Dr. Nisha Patel,Nephrology,Nephrologist,314,55,Male,Kidney Stones,2026-03-26,Lithotripsy,6000,24,No,Recovered,3
+Dr. Priya Singh,General Medicine,Physician,315,65,Female,Osteoarthritis,2026-04-08,Physical Therapy and Pain Management,4000,25,No,Stable,4
+Dr. Meera Verma,Cardiology,Cardiologist,316,55,Female,Heart Disease,2026-04-01,Angioplasty,15000,26,Yes,Recovered,3
+Dr. Yash Agarwal,Internal Medicine,Internist,317,62,Male,Diabetes,2026-04-11,Insulin Therapy,2000,24,No,Stable,4
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,318,35,Female,Fractured Arm,2026-03-18,X-Ray and Splint,500,22,Yes,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,319,78,Male,Stroke,2026-05-03,CT Scan and Medication,10000,28,No,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,320,53,Female,Cancer,2026-04-11,Surgery and Chemotherapy,25000,31,Yes,Recovered,4
+Dr. Yash Agarwal,Internal Medicine,Internist,321,72,Male,Hypertension,2026-05-03,Medication and Counseling,1000,23,No,Stable,4
+Dr. Rahul Chawla,General Surgery,General Surgeon,322,60,Female,Appendicitis,2026-04-24,Appendectomy,8000,25,Yes,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,323,45,Male,Fractured Leg,2026-04-12,Cast and Physical Therapy,3000,27,No,Recovered,4
+Dr. Meera Verma,Cardiology,Cardiologist,324,75,Female,Heart Attack,2026-05-15,Cardiac Catheterization,18000,29,Yes,Stable,2
+Dr. Neha Sethi,Dermatology,Dermatologist,325,28,Male,Allergic Reaction,2026-04-01,Epinephrine Injection,100,22,No,Recovered,5
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,326,52,Female,Respiratory Infection,2026-04-28,Antibiotics and Rest,800,23,No,Stable,4
+Dr. Vikram Bansal,Urology,Urologist,327,67,Male,Prostate Cancer,2026-05-16,Radiation Therapy,20000,30,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,328,35,Female,Childbirth,2026-04-17,Delivery and Postnatal Care,12000,24,No,Recovered,4
+Dr. Vikram Bansal,Urology,Urologist,329,50,Male,Kidney Stones,2026-05-05,Lithotripsy,6000,25,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,330,60,Female,Osteoarthritis,2026-05-18,Physical Therapy and Pain Management,4000,26,No,Stable,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,331,48,Female,Heart Disease,2026-05-09,Angioplasty,15000,27,Yes,Recovered,4
+Dr. Priya Singh,General Medicine,Physician,332,65,Male,Diabetes,2026-05-29,Insulin Therapy,2000,25,No,Stable,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,333,30,Female,Fractured Arm,2026-04-27,X-Ray and Splint,500,23,No,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,334,70,Male,Stroke,2026-06-09,CT Scan and Medication,10000,29,Yes,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,335,55,Female,Cancer,2026-05-28,Surgery and Chemotherapy,25000,32,No,Recovered,4
+Dr. Priya Singh,General Medicine,Physician,336,68,Male,Hypertension,2026-06-13,Medication and Counseling,1000,24,No,Stable,4
+Dr. Aditya Malhotra,Gastroenterology,Gastroenterologist,337,45,Female,Appendicitis,2026-05-24,Appendectomy,8000,26,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,338,40,Male,Fractured Leg,2026-05-22,Cast and Physical Therapy,3000,28,No,Recovered,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,339,78,Female,Heart Attack,2026-07-02,Cardiac Catheterization,18000,30,Yes,Stable,2
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,340,25,Male,Allergic Reaction,2026-05-13,Epinephrine Injection,100,23,No,Recovered,5
+Dr. Isha Joshi,Pulmonology,Pulmonologist,341,52,Female,Respiratory Infection,2026-06-12,Antibiotics and Rest,800,24,No,Stable,4
+Dr. Ananya Gupta,Oncology,Oncologist,342,58,Male,Prostate Cancer,2026-06-21,Radiation Therapy,20000,31,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,343,32,Female,Childbirth,2026-05-29,Delivery and Postnatal Care,12000,25,No,Recovered,4
+Dr. Nisha Patel,Nephrology,Nephrologist,344,55,Male,Kidney Stones,2026-06-24,Lithotripsy,6000,26,No,Recovered,3
+Dr. Priya Singh,General Medicine,Physician,345,65,Female,Osteoarthritis,2025-01-05,Physical Therapy and Pain Management,4000,27,No,Stable,4
+Dr. Meera Verma,Cardiology,Cardiologist,346,55,Female,Heart Disease,2026-06-30,Angioplasty,15000,28,Yes,Recovered,3
+Dr. Yash Agarwal,Internal Medicine,Internist,347,62,Male,Diabetes,2025-01-08,Insulin Therapy,2000,26,No,Stable,4
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,348,35,Female,Fractured Arm,2026-06-16,X-Ray and Splint,500,24,Yes,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,349,78,Male,Stroke,2025-01-30,CT Scan and Medication,10000,30,No,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,350,53,Female,Cancer,2025-01-08,Surgery and Chemotherapy,25000,33,Yes,Recovered,4
+Dr. Yash Agarwal,Internal Medicine,Internist,351,72,Male,Hypertension,2025-01-30,Medication and Counseling,1000,25,No,Stable,4
+Dr. Rahul Chawla,General Surgery,General Surgeon,352,60,Female,Appendicitis,2025-01-21,Appendectomy,8000,27,Yes,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,353,45,Male,Fractured Leg,2025-01-09,Cast and Physical Therapy,3000,29,No,Recovered,4
+Dr. Meera Verma,Cardiology,Cardiologist,354,75,Female,Heart Attack,2025-02-11,Cardiac Catheterization,18000,31,Yes,Stable,2
+Dr. Neha Sethi,Dermatology,Dermatologist,355,28,Male,Allergic Reaction,2026-06-30,Epinephrine Injection,100,24,No,Recovered,5
+Dr. Vikram Bansal,Urology,Urologist,357,67,Male,Prostate Cancer,2025-02-12,Radiation Therapy,20000,32,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,358,35,Female,Childbirth,2025-01-14,Delivery and Postnatal Care,12000,26,No,Recovered,4
+Dr. Vikram Bansal,Urology,Urologist,359,50,Male,Kidney Stones,2025-02-01,Lithotripsy,6000,27,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,360,60,Female,Osteoarthritis,2025-02-14,Physical Therapy and Pain Management,4000,28,No,Stable,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,361,48,Female,Heart Disease,2025-02-05,Angioplasty,15000,29,Yes,Recovered,4
+Dr. Priya Singh,General Medicine,Physician,362,65,Male,Diabetes,2025-02-25,Insulin Therapy,2000,27,No,Stable,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,363,30,Female,Fractured Arm,2025-01-24,X-Ray and Splint,500,25,No,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,364,70,Male,Stroke,2025-03-08,CT Scan and Medication,10000,31,Yes,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,365,55,Female,Cancer,2025-02-24,Surgery and Chemotherapy,25000,34,No,Recovered,4
+Dr. Priya Singh,General Medicine,Physician,366,68,Male,Hypertension,2025-03-12,Medication and Counseling,1000,26,No,Stable,4
+Dr. Aditya Malhotra,Gastroenterology,Gastroenterologist,367,45,Female,Appendicitis,2025-02-20,Appendectomy,8000,28,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,368,40,Male,Fractured Leg,2025-02-18,Cast and Physical Therapy,3000,30,No,Recovered,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,369,78,Female,Heart Attack,2025-03-31,Cardiac Catheterization,18000,32,Yes,Stable,2
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,370,25,Male,Allergic Reaction,2025-02-09,Epinephrine Injection,100,25,No,Recovered,5
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,371,52,Female,Respiratory Infection,2025-03-11,Antibiotics and Rest,800,26,No,Stable,4
+Dr. Ananya Gupta,Oncology,Oncologist,372,58,Male,Prostate Cancer,2025-03-20,Radiation Therapy,20000,33,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,373,32,Female,Childbirth,2025-02-25,Delivery and Postnatal Care,12000,27,No,Recovered,4
+Dr. Nisha Patel,Nephrology,Nephrologist,374,55,Male,Kidney Stones,2025-03-23,Lithotripsy,6000,28,No,Recovered,3
+Dr. Priya Singh,General Medicine,Physician,375,65,Female,Osteoarthritis,2025-04-05,Physical Therapy and Pain Management,4000,29,No,Stable,4
+Dr. Meera Verma,Cardiology,Cardiologist,376,55,Female,Heart Disease,2025-03-29,Angioplasty,15000,30,Yes,Recovered,3
+Dr. Yash Agarwal,Internal Medicine,Internist,377,62,Male,Diabetes,2025-04-08,Insulin Therapy,2000,28,No,Stable,4
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,378,35,Female,Fractured Arm,2025-03-15,X-Ray and Splint,500,26,Yes,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,379,78,Male,Stroke,2025-04-30,CT Scan and Medication,10000,33,No,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,380,53,Female,Cancer,2025-04-08,Surgery and Chemotherapy,25000,35,Yes,Recovered,4
+Dr. Yash Agarwal,Internal Medicine,Internist,381,72,Male,Hypertension,2025-04-30,Medication and Counseling,1000,27,No,Stable,4
+Dr. Rahul Chawla,General Surgery,General Surgeon,382,60,Female,Appendicitis,2025-04-21,Appendectomy,8000,29,Yes,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,383,45,Male,Fractured Leg,2025-04-09,Cast and Physical Therapy,3000,31,No,Recovered,4
+Dr. Meera Verma,Cardiology,Cardiologist,384,75,Female,Heart Attack,2025-05-12,Cardiac Catheterization,18000,33,Yes,Stable,2
+Dr. Neha Sethi,Dermatology,Dermatologist,385,28,Male,Allergic Reaction,2025-03-29,Epinephrine Injection,100,26,No,Recovered,5
+Dr. Isha Joshi,Pulmonology,Pulmonologist,386,52,Female,Respiratory Infection,2025-04-25,Antibiotics and Rest,800,27,No,Stable,4
+Dr. Vikram Bansal,Urology,Urologist,387,67,Male,Prostate Cancer,2025-05-13,Radiation Therapy,20000,34,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,388,35,Female,Childbirth,2025-04-14,Delivery and Postnatal Care,12000,28,No,Recovered,4
+Dr. Vikram Bansal,Urology,Urologist,389,50,Male,Kidney Stones,2025-05-02,Lithotripsy,6000,29,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,390,60,Female,Osteoarthritis,2025-05-15,Physical Therapy and Pain Management,4000,30,No,Stable,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,391,48,Female,Heart Disease,2025-05-06,Angioplasty,15000,31,Yes,Recovered,4
+Dr. Priya Singh,General Medicine,Physician,392,65,Male,Diabetes,2025-05-26,Insulin Therapy,2000,29,No,Stable,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,393,30,Female,Fractured Arm,2025-04-24,X-Ray and Splint,500,27,No,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,394,70,Male,Stroke,2025-06-06,CT Scan and Medication,10000,34,Yes,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,395,55,Female,Cancer,2025-05-25,Surgery and Chemotherapy,25000,36,No,Recovered,4
+Dr. Priya Singh,General Medicine,Physician,396,68,Male,Hypertension,2025-06-10,Medication and Counseling,1000,28,No,Stable,4
+Dr. Aditya Malhotra,Gastroenterology,Gastroenterologist,397,45,Female,Appendicitis,2025-05-21,Appendectomy,8000,30,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,398,40,Male,Fractured Leg,2025-05-19,Cast and Physical Therapy,3000,32,No,Recovered,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,399,78,Female,Heart Attack,2025-06-29,Cardiac Catheterization,18000,34,Yes,Stable,2
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,400,25,Male,Allergic Reaction,2025-05-10,Epinephrine Injection,100,27,No,Recovered,5
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,401,52,Female,Respiratory Infection,2025-06-09,Antibiotics and Rest,800,28,No,Stable,4
+Dr. Ananya Gupta,Oncology,Oncologist,402,58,Male,Prostate Cancer,2025-06-18,Radiation Therapy,20000,35,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,403,32,Female,Childbirth,2025-05-26,Delivery and Postnatal Care,12000,29,No,Recovered,4
+Dr. Nisha Patel,Nephrology,Nephrologist,404,55,Male,Kidney Stones,2025-06-21,Lithotripsy,6000,30,No,Recovered,3
+Dr. Priya Singh,General Medicine,Physician,405,65,Female,Osteoarthritis,2025-07-04,Physical Therapy and Pain Management,4000,31,No,Stable,4
+Dr. Meera Verma,Cardiology,Cardiologist,406,55,Female,Heart Disease,2025-06-27,Angioplasty,15000,32,Yes,Recovered,3
+Dr. Yash Agarwal,Internal Medicine,Internist,407,62,Male,Diabetes,2025-07-07,Insulin Therapy,2000,30,No,Stable,4
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,408,35,Female,Fractured Arm,2025-06-13,X-Ray and Splint,500,28,Yes,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,409,78,Male,Stroke,2025-07-29,CT Scan and Medication,10000,35,No,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,410,53,Female,Cancer,2025-07-07,Surgery and Chemotherapy,25000,37,Yes,Recovered,4
+Dr. Yash Agarwal,Internal Medicine,Internist,411,72,Male,Hypertension,2025-07-29,Medication and Counseling,1000,29,No,Stable,4
+Dr. Rahul Chawla,General Surgery,General Surgeon,412,60,Female,Appendicitis,2025-07-20,Appendectomy,8000,31,Yes,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,413,45,Male,Fractured Leg,2025-07-08,Cast and Physical Therapy,3000,33,No,Recovered,4
+Dr. Meera Verma,Cardiology,Cardiologist,414,75,Female,Heart Attack,2025-08-10,Cardiac Catheterization,18000,35,Yes,Stable,2
+Dr. Neha Sethi,Dermatology,Dermatologist,415,28,Male,Allergic Reaction,2025-06-27,Epinephrine Injection,100,28,No,Recovered,5
+Dr. Isha Joshi,Pulmonology,Pulmonologist,416,52,Female,Respiratory Infection,2025-07-24,Antibiotics and Rest,800,29,No,Stable,4
+Dr. Sanya Rao,Obstetrics,Obstetrician,418,35,Female,Childbirth,2025-07-13,Delivery and Postnatal Care,12000,30,No,Recovered,4
+Dr. Vikram Bansal,Urology,Urologist,419,50,Male,Kidney Stones,2025-07-31,Lithotripsy,6000,31,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,420,60,Female,Osteoarthritis,2025-08-13,Physical Therapy and Pain Management,4000,32,No,Stable,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,421,48,Female,Heart Disease,2025-08-04,Angioplasty,15000,33,Yes,Recovered,4
+Dr. Priya Singh,General Medicine,Physician,422,65,Male,Diabetes,2025-08-24,Insulin Therapy,2000,31,No,Stable,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,423,30,Female,Fractured Arm,2025-07-23,X-Ray and Splint,500,29,No,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,424,70,Male,Stroke,2025-09-04,CT Scan and Medication,10000,36,Yes,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,425,55,Female,Cancer,2025-08-23,Surgery and Chemotherapy,25000,38,No,Recovered,4
+Dr. Priya Singh,General Medicine,Physician,426,68,Male,Hypertension,2025-09-08,Medication and Counseling,1000,30,No,Stable,4
+Dr. Aditya Malhotra,Gastroenterology,Gastroenterologist,427,45,Female,Appendicitis,2025-08-19,Appendectomy,8000,32,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,428,40,Male,Fractured Leg,2025-08-17,Cast and Physical Therapy,3000,34,No,Recovered,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,429,78,Female,Heart Attack,2025-09-27,Cardiac Catheterization,18000,36,Yes,Stable,2
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,430,25,Male,Allergic Reaction,2025-08-08,Epinephrine Injection,100,29,No,Recovered,5
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,431,52,Female,Respiratory Infection,2025-09-07,Antibiotics and Rest,800,30,No,Stable,4
+Dr. Vikram Bansal,Urology,Urologist,432,58,Male,Prostate Cancer,2025-09-16,Radiation Therapy,20000,37,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,433,32,Female,Childbirth,2025-08-24,Delivery and Postnatal Care,12000,31,No,Recovered,4
+Dr. Nisha Patel,Nephrology,Nephrologist,434,55,Male,Kidney Stones,2025-09-19,Lithotripsy,6000,32,No,Recovered,3
+Dr. Priya Singh,General Medicine,Physician,435,65,Female,Osteoarthritis,2025-10-02,Physical Therapy and Pain Management,4000,33,No,Stable,4
+Dr. Meera Verma,Cardiology,Cardiologist,436,55,Female,Heart Disease,2025-09-25,Angioplasty,15000,34,Yes,Recovered,3
+Dr. Yash Agarwal,Internal Medicine,Internist,437,62,Male,Diabetes,2025-10-05,Insulin Therapy,2000,32,No,Stable,4
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,438,35,Female,Fractured Arm,2025-09-11,X-Ray and Splint,500,30,Yes,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,439,78,Male,Stroke,2025-10-27,CT Scan and Medication,10000,37,No,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,440,53,Female,Cancer,2025-10-05,Surgery and Chemotherapy,25000,39,Yes,Recovered,4
+Dr. Yash Agarwal,Internal Medicine,Internist,441,72,Male,Hypertension,2025-10-27,Medication and Counseling,1000,31,No,Stable,4
+Dr. Rahul Chawla,General Surgery,General Surgeon,442,60,Female,Appendicitis,2025-10-18,Appendectomy,8000,33,Yes,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,443,45,Male,Fractured Leg,2025-10-06,Cast and Physical Therapy,3000,35,No,Recovered,4
+Dr. Meera Verma,Cardiology,Cardiologist,444,75,Female,Heart Attack,2025-11-08,Cardiac Catheterization,18000,37,Yes,Stable,2
+Dr. Neha Sethi,Dermatology,Dermatologist,445,28,Male,Allergic Reaction,2025-09-25,Epinephrine Injection,100,30,No,Recovered,5
+Dr. Isha Joshi,Pulmonology,Pulmonologist,446,52,Female,Respiratory Infection,2025-10-22,Antibiotics and Rest,800,31,No,Stable,4
+Dr. Ananya Gupta,Oncology,Oncologist,447,67,Male,Prostate Cancer,2025-11-09,Radiation Therapy,20000,38,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,448,35,Female,Childbirth,2025-10-11,Delivery and Postnatal Care,12000,32,No,Recovered,4
+Dr. Vikram Bansal,Urology,Urologist,449,50,Male,Kidney Stones,2025-10-29,Lithotripsy,6000,33,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,450,60,Female,Osteoarthritis,2025-11-11,Physical Therapy and Pain Management,4000,34,No,Stable,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,451,48,Female,Heart Disease,2025-11-02,Angioplasty,15000,35,Yes,Recovered,4
+Dr. Priya Singh,General Medicine,Physician,452,65,Male,Diabetes,2025-11-22,Insulin Therapy,2000,33,No,Stable,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,453,30,Female,Fractured Arm,2025-10-21,X-Ray and Splint,500,31,No,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,454,70,Male,Stroke,2025-12-03,CT Scan and Medication,10000,38,Yes,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,455,55,Female,Cancer,2025-11-21,Surgery and Chemotherapy,25000,40,No,Recovered,4
+Dr. Priya Singh,General Medicine,Physician,456,68,Male,Hypertension,2025-12-07,Medication and Counseling,1000,32,No,Stable,4
+Dr. Aditya Malhotra,Gastroenterology,Gastroenterologist,457,45,Female,Appendicitis,2025-11-17,Appendectomy,8000,34,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,458,40,Male,Fractured Leg,2025-11-15,Cast and Physical Therapy,3000,36,No,Recovered,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,459,78,Female,Heart Attack,2025-12-26,Cardiac Catheterization,18000,38,Yes,Stable,2
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,460,25,Male,Allergic Reaction,2025-11-06,Epinephrine Injection,100,31,No,Recovered,5
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,461,52,Female,Respiratory Infection,2025-12-06,Antibiotics and Rest,800,32,No,Stable,4
+Dr. Vikram Bansal,Urology,Urologist,462,58,Male,Prostate Cancer,2025-12-15,Radiation Therapy,20000,39,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,463,32,Female,Childbirth,2025-11-22,Delivery and Postnatal Care,12000,33,No,Recovered,4
+Dr. Nisha Patel,Nephrology,Nephrologist,464,55,Male,Kidney Stones,2025-12-18,Lithotripsy,6000,34,No,Recovered,3
+Dr. Priya Singh,General Medicine,Physician,465,65,Female,Osteoarthritis,2025-12-31,Physical Therapy and Pain Management,4000,35,No,Stable,4
+Dr. Meera Verma,Cardiology,Cardiologist,466,55,Female,Heart Disease,2025-12-24,Angioplasty,15000,36,Yes,Recovered,3
+Dr. Yash Agarwal,Internal Medicine,Internist,467,62,Male,Diabetes,2026-01-03,Insulin Therapy,2000,34,No,Stable,4
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,468,35,Female,Fractured Arm,2025-12-10,X-Ray and Splint,500,32,Yes,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,469,78,Male,Stroke,2026-01-25,CT Scan and Medication,10000,39,No,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,470,53,Female,Cancer,2026-01-03,Surgery and Chemotherapy,25000,41,Yes,Recovered,4
+Dr. Yash Agarwal,Internal Medicine,Internist,471,72,Male,Hypertension,2026-01-25,Medication and Counseling,1000,33,No,Stable,4
+Dr. Rahul Chawla,General Surgery,General Surgeon,472,60,Female,Appendicitis,2026-01-16,Appendectomy,8000,35,Yes,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,473,45,Male,Fractured Leg,2026-01-04,Cast and Physical Therapy,3000,37,No,Recovered,4
+Dr. Meera Verma,Cardiology,Cardiologist,474,75,Female,Heart Attack,2026-02-06,Cardiac Catheterization,18000,39,Yes,Stable,2
+Dr. Neha Sethi,Dermatology,Dermatologist,475,28,Male,Allergic Reaction,2025-12-24,Epinephrine Injection,100,32,No,Recovered,5
+Dr. Isha Joshi,Pulmonology,Pulmonologist,476,52,Female,Respiratory Infection,2026-01-20,Antibiotics and Rest,800,33,No,Stable,4
+Dr. Ananya Gupta,Oncology,Oncologist,477,67,Male,Prostate Cancer,2026-02-07,Radiation Therapy,20000,40,No,Recovered,3
+Dr. Vikram Bansal,Urology,Urologist,479,50,Male,Kidney Stones,2026-01-27,Lithotripsy,6000,35,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,480,60,Female,Osteoarthritis,2026-02-09,Physical Therapy and Pain Management,4000,36,No,Stable,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,481,48,Female,Heart Disease,2026-01-31,Angioplasty,15000,37,Yes,Recovered,4
+Dr. Priya Singh,General Medicine,Physician,482,65,Male,Diabetes,2026-02-20,Insulin Therapy,2000,35,No,Stable,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,483,30,Female,Fractured Arm,2026-01-19,X-Ray and Splint,500,33,No,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,484,70,Male,Stroke,2026-03-03,CT Scan and Medication,10000,40,Yes,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,485,55,Female,Cancer,2026-02-19,Surgery and Chemotherapy,25000,42,No,Recovered,4
+Dr. Priya Singh,General Medicine,Physician,486,68,Male,Hypertension,2026-03-07,Medication and Counseling,1000,34,No,Stable,4
+Dr. Aditya Malhotra,Gastroenterology,Gastroenterologist,487,45,Female,Appendicitis,2026-02-15,Appendectomy,8000,36,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,488,40,Male,Fractured Leg,2026-02-13,Cast and Physical Therapy,3000,38,No,Recovered,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,489,78,Female,Heart Attack,2026-03-26,Cardiac Catheterization,18000,40,Yes,Stable,2
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,490,25,Male,Allergic Reaction,2026-02-04,Epinephrine Injection,100,33,No,Recovered,5
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,491,52,Female,Respiratory Infection,2026-03-06,Antibiotics and Rest,800,34,No,Stable,4
+Dr. Vikram Bansal,Urology,Urologist,492,58,Male,Prostate Cancer,2026-03-15,Radiation Therapy,20000,41,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,493,32,Female,Childbirth,2026-02-20,Delivery and Postnatal Care,12000,35,No,Recovered,4
+Dr. Nisha Patel,Nephrology,Nephrologist,494,55,Male,Kidney Stones,2026-03-18,Lithotripsy,6000,36,No,Recovered,3
+Dr. Priya Singh,General Medicine,Physician,495,65,Female,Osteoarthritis,2026-03-31,Physical Therapy and Pain Management,4000,37,No,Stable,4
+Dr. Meera Verma,Cardiology,Cardiologist,496,55,Female,Heart Disease,2026-03-24,Angioplasty,15000,38,Yes,Recovered,3
+Dr. Yash Agarwal,Internal Medicine,Internist,497,62,Male,Diabetes,2026-04-03,Insulin Therapy,2000,36,No,Stable,4
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,498,35,Female,Fractured Arm,2026-03-10,X-Ray and Splint,500,34,Yes,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,499,78,Male,Stroke,2026-04-25,CT Scan and Medication,10000,41,No,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,500,53,Female,Cancer,2026-04-03,Surgery and Chemotherapy,25000,43,Yes,Recovered,4
+Dr. Yash Agarwal,Internal Medicine,Internist,501,72,Male,Hypertension,2026-04-25,Medication and Counseling,1000,35,No,Stable,4
+Dr. Rahul Chawla,General Surgery,General Surgeon,502,60,Female,Appendicitis,2026-04-16,Appendectomy,8000,37,Yes,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,503,45,Male,Fractured Leg,2026-04-04,Cast and Physical Therapy,3000,39,No,Recovered,4
+Dr. Meera Verma,Cardiology,Cardiologist,504,75,Female,Heart Attack,2026-05-07,Cardiac Catheterization,18000,41,Yes,Stable,2
+Dr. Neha Sethi,Dermatology,Dermatologist,505,28,Male,Allergic Reaction,2026-03-24,Epinephrine Injection,100,34,No,Recovered,5
+Dr. Isha Joshi,Pulmonology,Pulmonologist,506,52,Female,Respiratory Infection,2026-04-20,Antibiotics and Rest,800,35,No,Stable,4
+Dr. Ananya Gupta,Oncology,Oncologist,507,67,Male,Prostate Cancer,2026-05-08,Radiation Therapy,20000,42,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,508,35,Female,Childbirth,2026-04-09,Delivery and Postnatal Care,12000,36,No,Recovered,4
+Dr. Vikram Bansal,Urology,Urologist,509,50,Male,Kidney Stones,2026-04-27,Lithotripsy,6000,37,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,510,60,Female,Osteoarthritis,2026-05-10,Physical Therapy and Pain Management,4000,38,No,Stable,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,511,48,Female,Heart Disease,2026-05-01,Angioplasty,15000,39,Yes,Recovered,4
+Dr. Priya Singh,General Medicine,Physician,512,65,Male,Diabetes,2026-05-21,Insulin Therapy,2000,37,No,Stable,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,513,30,Female,Fractured Arm,2026-04-19,X-Ray and Splint,500,35,No,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,514,70,Male,Stroke,2026-06-01,CT Scan and Medication,10000,42,Yes,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,515,55,Female,Cancer,2026-05-20,Surgery and Chemotherapy,25000,44,No,Recovered,4
+Dr. Priya Singh,General Medicine,Physician,516,68,Male,Hypertension,2026-06-05,Medication and Counseling,1000,36,No,Stable,4
+Dr. Aditya Malhotra,Gastroenterology,Gastroenterologist,517,45,Female,Appendicitis,2026-05-16,Appendectomy,8000,38,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,518,40,Male,Fractured Leg,2026-05-14,Cast and Physical Therapy,3000,40,No,Recovered,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,519,78,Female,Heart Attack,2026-06-24,Cardiac Catheterization,18000,42,Yes,Stable,2
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,520,25,Male,Allergic Reaction,2026-05-05,Epinephrine Injection,100,35,No,Recovered,5
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,521,52,Female,Respiratory Infection,2026-06-04,Antibiotics and Rest,800,36,No,Stable,4
+Dr. Vikram Bansal,Urology,Urologist,522,58,Male,Prostate Cancer,2026-06-13,Radiation Therapy,20000,43,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,523,32,Female,Childbirth,2026-05-21,Delivery and Postnatal Care,12000,37,No,Recovered,4
+Dr. Nisha Patel,Nephrology,Nephrologist,524,55,Male,Kidney Stones,2026-06-16,Lithotripsy,6000,38,No,Recovered,3
+Dr. Priya Singh,General Medicine,Physician,525,65,Female,Osteoarthritis,2026-06-29,Physical Therapy and Pain Management,4000,39,No,Stable,4
+Dr. Meera Verma,Cardiology,Cardiologist,526,55,Female,Heart Disease,2026-06-22,Angioplasty,15000,40,Yes,Recovered,3
+Dr. Yash Agarwal,Internal Medicine,Internist,527,62,Male,Diabetes,2026-07-02,Insulin Therapy,2000,38,No,Stable,4
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,528,35,Female,Fractured Arm,2026-06-08,X-Ray and Splint,500,36,Yes,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,529,78,Male,Stroke,2025-01-22,CT Scan and Medication,10000,43,No,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,530,53,Female,Cancer,2026-07-02,Surgery and Chemotherapy,25000,45,Yes,Recovered,4
+Dr. Yash Agarwal,Internal Medicine,Internist,531,72,Male,Hypertension,2025-01-22,Medication and Counseling,1000,38,No,Stable,4
+Dr. Rahul Chawla,General Surgery,General Surgeon,532,60,Female,Appendicitis,2025-01-13,Appendectomy,8000,39,Yes,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,533,45,Male,Fractured Leg,2025-01-01,Cast and Physical Therapy,3000,41,No,Recovered,4
+Dr. Meera Verma,Cardiology,Cardiologist,534,75,Female,Heart Attack,2025-02-03,Cardiac Catheterization,18000,43,Yes,Stable,2
+Dr. Neha Sethi,Dermatology,Dermatologist,535,28,Male,Allergic Reaction,2026-06-22,Epinephrine Injection,100,36,No,Recovered,5
+Dr. Isha Joshi,Pulmonology,Pulmonologist,536,52,Female,Respiratory Infection,2025-01-17,Antibiotics and Rest,800,37,No,Stable,4
+Dr. Ananya Gupta,Oncology,Oncologist,537,67,Male,Prostate Cancer,2025-02-04,Radiation Therapy,20000,44,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,538,35,Female,Childbirth,2025-01-06,Delivery and Postnatal Care,12000,38,No,Recovered,4
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,540,60,Female,Osteoarthritis,2025-02-06,Physical Therapy and Pain Management,4000,40,No,Stable,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,541,48,Female,Heart Disease,2025-01-28,Angioplasty,15000,41,Yes,Recovered,4
+Dr. Priya Singh,General Medicine,Physician,542,65,Male,Diabetes,2025-02-17,Insulin Therapy,2000,39,No,Stable,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,543,30,Female,Fractured Arm,2025-01-16,X-Ray and Splint,500,37,No,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,544,70,Male,Stroke,2025-02-28,CT Scan and Medication,10000,44,Yes,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,545,55,Female,Cancer,2025-02-16,Surgery and Chemotherapy,25000,46,No,Recovered,4
+Dr. Priya Singh,General Medicine,Physician,546,68,Male,Hypertension,2025-03-04,Medication and Counseling,1000,40,No,Stable,4
+Dr. Aditya Malhotra,Gastroenterology,Gastroenterologist,547,45,Female,Appendicitis,2025-02-12,Appendectomy,8000,42,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,548,40,Male,Fractured Leg,2025-02-10,Cast and Physical Therapy,3000,42,No,Recovered,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,549,78,Female,Heart Attack,2025-03-23,Cardiac Catheterization,18000,44,Yes,Stable,2
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,550,25,Male,Allergic Reaction,2025-02-01,Epinephrine Injection,100,37,No,Recovered,5
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,551,52,Female,Respiratory Infection,2025-03-03,Antibiotics and Rest,800,38,No,Stable,4
+Dr. Vikram Bansal,Urology,Urologist,552,58,Male,Prostate Cancer,2025-03-12,Radiation Therapy,20000,45,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,553,32,Female,Childbirth,2025-02-17,Delivery and Postnatal Care,12000,39,No,Recovered,4
+Dr. Vikram Bansal,Urology,Urologist,554,55,Male,Kidney Stones,2025-03-15,Lithotripsy,6000,40,No,Recovered,3
+Dr. Priya Singh,General Medicine,Physician,555,65,Female,Osteoarthritis,2025-03-28,Physical Therapy and Pain Management,4000,41,No,Stable,4
+Dr. Meera Verma,Cardiology,Cardiologist,556,55,Female,Heart Disease,2025-03-21,Angioplasty,15000,42,Yes,Recovered,3
+Dr. Yash Agarwal,Internal Medicine,Internist,557,62,Male,Diabetes,2025-03-31,Insulin Therapy,2000,40,No,Stable,4
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,558,35,Female,Fractured Arm,2025-03-07,X-Ray and Splint,500,38,Yes,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,559,78,Male,Stroke,2025-04-22,CT Scan and Medication,10000,45,No,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,560,53,Female,Cancer,2025-03-31,Surgery and Chemotherapy,25000,47,Yes,Recovered,4
+Dr. Yash Agarwal,Internal Medicine,Internist,561,72,Male,Hypertension,2025-04-22,Medication and Counseling,1000,41,No,Stable,4
+Dr. Rahul Chawla,General Surgery,General Surgeon,562,60,Female,Appendicitis,2025-04-13,Appendectomy,8000,43,Yes,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,563,45,Male,Fractured Leg,2025-04-01,Cast and Physical Therapy,3000,43,No,Recovered,4
+Dr. Meera Verma,Cardiology,Cardiologist,564,75,Female,Heart Attack,2025-05-04,Cardiac Catheterization,18000,45,Yes,Stable,2
+Dr. Neha Sethi,Dermatology,Dermatologist,565,28,Male,Allergic Reaction,2025-03-21,Epinephrine Injection,100,38,No,Recovered,5
+Dr. Isha Joshi,Pulmonology,Pulmonologist,566,52,Female,Respiratory Infection,2025-04-17,Antibiotics and Rest,800,39,No,Stable,4
+Dr. Ananya Gupta,Oncology,Oncologist,567,67,Male,Prostate Cancer,2025-05-05,Radiation Therapy,20000,46,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,568,35,Female,Childbirth,2025-04-06,Delivery and Postnatal Care,12000,40,No,Recovered,4
+Dr. Nisha Patel,Nephrology,Nephrologist,569,50,Male,Kidney Stones,2025-04-24,Lithotripsy,6000,41,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,570,60,Female,Osteoarthritis,2025-05-07,Physical Therapy and Pain Management,4000,42,No,Stable,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,571,48,Female,Heart Disease,2025-04-28,Angioplasty,15000,43,Yes,Recovered,4
+Dr. Priya Singh,General Medicine,Physician,572,65,Male,Diabetes,2025-05-18,Insulin Therapy,2000,41,No,Stable,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,573,30,Female,Fractured Arm,2025-04-16,X-Ray and Splint,500,39,No,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,574,70,Male,Stroke,2025-05-29,CT Scan and Medication,10000,46,Yes,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,575,55,Female,Cancer,2025-05-17,Surgery and Chemotherapy,25000,48,No,Recovered,4
+Dr. Priya Singh,General Medicine,Physician,576,68,Male,Hypertension,2025-06-02,Medication and Counseling,1000,42,No,Stable,4
+Dr. Aditya Malhotra,Gastroenterology,Gastroenterologist,577,45,Female,Appendicitis,2025-05-13,Appendectomy,8000,44,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,578,40,Male,Fractured Leg,2025-05-11,Cast and Physical Therapy,3000,44,No,Recovered,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,579,78,Female,Heart Attack,2025-06-21,Cardiac Catheterization,18000,46,Yes,Stable,2
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,580,25,Male,Allergic Reaction,2025-05-02,Epinephrine Injection,100,39,No,Recovered,5
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,581,52,Female,Respiratory Infection,2025-06-01,Antibiotics and Rest,800,40,No,Stable,4
+Dr. Vikram Bansal,Urology,Urologist,582,58,Male,Prostate Cancer,2025-06-10,Radiation Therapy,20000,47,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,583,32,Female,Childbirth,2025-05-18,Delivery and Postnatal Care,12000,41,No,Recovered,4
+Dr. Vikram Bansal,Urology,Urologist,584,55,Male,Kidney Stones,2025-06-13,Lithotripsy,6000,42,No,Recovered,3
+Dr. Priya Singh,General Medicine,Physician,585,65,Female,Osteoarthritis,2025-06-26,Physical Therapy and Pain Management,4000,43,No,Stable,4
+Dr. Meera Verma,Cardiology,Cardiologist,586,55,Female,Heart Disease,2025-06-19,Angioplasty,15000,44,Yes,Recovered,3
+Dr. Yash Agarwal,Internal Medicine,Internist,587,62,Male,Diabetes,2025-06-29,Insulin Therapy,2000,42,No,Stable,4
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,588,35,Female,Fractured Arm,2025-06-05,X-Ray and Splint,500,40,Yes,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,589,78,Male,Stroke,2025-07-21,CT Scan and Medication,10000,47,No,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,590,53,Female,Cancer,2025-06-29,Surgery and Chemotherapy,25000,49,Yes,Recovered,4
+Dr. Yash Agarwal,Internal Medicine,Internist,591,72,Male,Hypertension,2025-07-21,Medication and Counseling,1000,43,No,Stable,4
+Dr. Rahul Chawla,General Surgery,General Surgeon,592,60,Female,Appendicitis,2025-07-12,Appendectomy,8000,45,Yes,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,593,45,Male,Fractured Leg,2025-06-30,Cast and Physical Therapy,3000,45,No,Recovered,4
+Dr. Meera Verma,Cardiology,Cardiologist,594,75,Female,Heart Attack,2025-08-02,Cardiac Catheterization,18000,47,Yes,Stable,2
+Dr. Neha Sethi,Dermatology,Dermatologist,595,28,Male,Allergic Reaction,2025-06-19,Epinephrine Injection,100,40,No,Recovered,5
+Dr. Isha Joshi,Pulmonology,Pulmonologist,596,52,Female,Respiratory Infection,2025-07-16,Antibiotics and Rest,800,41,No,Stable,4
+Dr. Ananya Gupta,Oncology,Oncologist,597,67,Male,Prostate Cancer,2025-08-03,Radiation Therapy,20000,48,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,598,35,Female,Childbirth,2025-07-05,Delivery and Postnatal Care,12000,42,No,Recovered,4
+Dr. Nisha Patel,Nephrology,Nephrologist,599,50,Male,Kidney Stones,2025-07-23,Lithotripsy,6000,43,No,Recovered,3
+Dr. Aarav Sharma,Cardiology,Cardiologist,601,48,Female,Heart Disease,2025-07-27,Angioplasty,15000,45,Yes,Recovered,4
+Dr. Priya Singh,General Medicine,Physician,602,65,Male,Diabetes,2025-08-16,Insulin Therapy,2000,43,No,Stable,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,603,30,Female,Fractured Arm,2025-07-15,X-Ray and Splint,500,41,No,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,604,70,Male,Stroke,2025-08-27,CT Scan and Medication,10000,48,Yes,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,605,55,Female,Cancer,2025-08-15,Surgery and Chemotherapy,25000,50,No,Recovered,4
+Dr. Priya Singh,General Medicine,Physician,606,68,Male,Hypertension,2025-08-31,Medication and Counseling,1000,44,No,Stable,4
+Dr. Aditya Malhotra,Gastroenterology,Gastroenterologist,607,45,Female,Appendicitis,2025-08-11,Appendectomy,8000,46,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,608,40,Male,Fractured Leg,2025-08-09,Cast and Physical Therapy,3000,46,No,Recovered,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,609,78,Female,Heart Attack,2025-09-19,Cardiac Catheterization,18000,48,Yes,Stable,2
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,610,25,Male,Allergic Reaction,2025-07-31,Epinephrine Injection,100,41,No,Recovered,5
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,611,52,Female,Respiratory Infection,2025-08-30,Antibiotics and Rest,800,42,No,Stable,4
+Dr. Vikram Bansal,Urology,Urologist,612,58,Male,Prostate Cancer,2025-09-08,Radiation Therapy,20000,49,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,613,32,Female,Childbirth,2025-08-16,Delivery and Postnatal Care,12000,43,No,Recovered,4
+Dr. Vikram Bansal,Urology,Urologist,614,55,Male,Kidney Stones,2025-09-11,Lithotripsy,6000,44,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,615,65,Female,Osteoarthritis,2025-09-24,Physical Therapy and Pain Management,4000,45,No,Stable,4
+Dr. Meera Verma,Cardiology,Cardiologist,616,55,Female,Heart Disease,2025-09-17,Angioplasty,15000,46,Yes,Recovered,3
+Dr. Yash Agarwal,Internal Medicine,Internist,617,62,Male,Diabetes,2025-09-27,Insulin Therapy,2000,44,No,Stable,4
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,618,35,Female,Fractured Arm,2025-09-03,X-Ray and Splint,500,42,Yes,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,619,78,Male,Stroke,2025-10-19,CT Scan and Medication,10000,49,No,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,620,53,Female,Cancer,2025-09-27,Surgery and Chemotherapy,25000,51,Yes,Recovered,4
+Dr. Yash Agarwal,Internal Medicine,Internist,621,72,Male,Hypertension,2025-10-19,Medication and Counseling,1000,45,No,Stable,4
+Dr. Rahul Chawla,General Surgery,General Surgeon,622,60,Female,Appendicitis,2025-10-10,Appendectomy,8000,47,Yes,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,623,45,Male,Fractured Leg,2025-09-28,Cast and Physical Therapy,3000,47,No,Recovered,4
+Dr. Meera Verma,Cardiology,Cardiologist,624,75,Female,Heart Attack,2025-10-31,Cardiac Catheterization,18000,49,Yes,Stable,2
+Dr. Neha Sethi,Dermatology,Dermatologist,625,28,Male,Allergic Reaction,2025-09-17,Epinephrine Injection,100,42,No,Recovered,5
+Dr. Isha Joshi,Pulmonology,Pulmonologist,626,52,Female,Respiratory Infection,2025-10-14,Antibiotics and Rest,800,43,No,Stable,4
+Dr. Ananya Gupta,Oncology,Oncologist,627,67,Male,Prostate Cancer,2025-11-01,Radiation Therapy,20000,50,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,628,35,Female,Childbirth,2025-10-03,Delivery and Postnatal Care,12000,44,No,Recovered,4
+Dr. Nisha Patel,Nephrology,Nephrologist,629,50,Male,Kidney Stones,2025-10-21,Lithotripsy,6000,45,No,Recovered,3
+Dr. Priya Singh,General Medicine,Physician,630,60,Female,Osteoarthritis,2025-11-03,Physical Therapy and Pain Management,4000,46,No,Stable,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,631,48,Female,Heart Disease,2025-10-25,Angioplasty,15000,47,Yes,Recovered,4
+Dr. Priya Singh,General Medicine,Physician,632,65,Male,Diabetes,2025-11-14,Insulin Therapy,2000,45,No,Stable,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,633,30,Female,Fractured Arm,2025-10-13,X-Ray and Splint,500,43,No,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,634,70,Male,Stroke,2025-11-25,CT Scan and Medication,10000,50,Yes,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,635,55,Female,Cancer,2025-11-13,Surgery and Chemotherapy,25000,52,No,Recovered,4
+Dr. Priya Singh,General Medicine,Physician,636,68,Male,Hypertension,2025-11-29,Medication and Counseling,1000,46,No,Stable,4
+Dr. Aditya Malhotra,Gastroenterology,Gastroenterologist,637,45,Female,Appendicitis,2025-11-09,Appendectomy,8000,48,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,638,40,Male,Fractured Leg,2025-11-07,Cast and Physical Therapy,3000,48,No,Recovered,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,639,78,Female,Heart Attack,2025-12-18,Cardiac Catheterization,18000,50,Yes,Stable,2
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,640,25,Male,Allergic Reaction,2025-10-29,Epinephrine Injection,100,43,No,Recovered,5
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,641,52,Female,Respiratory Infection,2025-11-28,Antibiotics and Rest,800,44,No,Stable,4
+Dr. Vikram Bansal,Urology,Urologist,642,58,Male,Prostate Cancer,2025-12-07,Radiation Therapy,20000,51,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,643,32,Female,Childbirth,2025-11-14,Delivery and Postnatal Care,12000,45,No,Recovered,4
+Dr. Vikram Bansal,Urology,Urologist,644,55,Male,Kidney Stones,2025-12-10,Lithotripsy,6000,46,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,645,65,Female,Osteoarthritis,2025-12-23,Physical Therapy and Pain Management,4000,47,No,Stable,4
+Dr. Meera Verma,Cardiology,Cardiologist,646,55,Female,Heart Disease,2025-12-16,Angioplasty,15000,48,Yes,Recovered,3
+Dr. Yash Agarwal,Internal Medicine,Internist,647,62,Male,Diabetes,2025-12-26,Insulin Therapy,2000,46,No,Stable,4
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,648,35,Female,Fractured Arm,2025-12-02,X-Ray and Splint,500,44,Yes,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,649,78,Male,Stroke,2026-01-17,CT Scan and Medication,10000,51,No,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,650,53,Female,Cancer,2025-12-26,Surgery and Chemotherapy,25000,53,Yes,Recovered,4
+Dr. Yash Agarwal,Internal Medicine,Internist,651,72,Male,Hypertension,2026-01-17,Medication and Counseling,1000,47,No,Stable,4
+Dr. Rahul Chawla,General Surgery,General Surgeon,652,60,Female,Appendicitis,2026-01-08,Appendectomy,8000,49,Yes,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,653,45,Male,Fractured Leg,2025-12-27,Cast and Physical Therapy,3000,49,No,Recovered,4
+Dr. Meera Verma,Cardiology,Cardiologist,654,75,Female,Heart Attack,2026-01-29,Cardiac Catheterization,18000,51,Yes,Stable,2
+Dr. Neha Sethi,Dermatology,Dermatologist,655,28,Male,Allergic Reaction,2025-12-16,Epinephrine Injection,100,44,No,Recovered,5
+Dr. Isha Joshi,Pulmonology,Pulmonologist,656,52,Female,Respiratory Infection,2026-01-12,Antibiotics and Rest,800,45,No,Stable,4
+Dr. Ananya Gupta,Oncology,Oncologist,657,67,Male,Prostate Cancer,2026-01-30,Radiation Therapy,20000,52,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,658,35,Female,Childbirth,2026-01-01,Delivery and Postnatal Care,12000,46,No,Recovered,4
+Dr. Nisha Patel,Nephrology,Nephrologist,659,50,Male,Kidney Stones,2026-01-19,Lithotripsy,6000,47,No,Recovered,3
+Dr. Priya Singh,General Medicine,Physician,660,60,Female,Osteoarthritis,2026-02-01,Physical Therapy and Pain Management,4000,48,No,Stable,4
+Dr. Priya Singh,General Medicine,Physician,662,65,Male,Diabetes,2026-02-12,Insulin Therapy,2000,47,No,Stable,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,663,30,Female,Fractured Arm,2026-01-11,X-Ray and Splint,500,45,No,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,664,70,Male,Stroke,2026-02-23,CT Scan and Medication,10000,52,Yes,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,665,55,Female,Cancer,2026-02-11,Surgery and Chemotherapy,25000,54,No,Recovered,4
+Dr. Priya Singh,General Medicine,Physician,666,68,Male,Hypertension,2026-02-27,Medication and Counseling,1000,48,No,Stable,4
+Dr. Aditya Malhotra,Gastroenterology,Gastroenterologist,667,45,Female,Appendicitis,2026-02-07,Appendectomy,8000,50,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,668,40,Male,Fractured Leg,2026-02-05,Cast and Physical Therapy,3000,50,No,Recovered,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,669,78,Female,Heart Attack,2026-03-18,Cardiac Catheterization,18000,52,Yes,Stable,2
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,670,25,Male,Allergic Reaction,2026-01-27,Epinephrine Injection,100,45,No,Recovered,5
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,671,52,Female,Respiratory Infection,2026-02-26,Antibiotics and Rest,800,46,No,Stable,4
+Dr. Vikram Bansal,Urology,Urologist,672,58,Male,Prostate Cancer,2026-03-07,Radiation Therapy,20000,53,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,673,32,Female,Childbirth,2026-02-12,Delivery and Postnatal Care,12000,47,No,Recovered,4
+Dr. Vikram Bansal,Urology,Urologist,674,55,Male,Kidney Stones,2026-03-10,Lithotripsy,6000,48,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,675,65,Female,Osteoarthritis,2026-03-23,Physical Therapy and Pain Management,4000,49,No,Stable,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,676,55,Female,Heart Disease,2026-03-16,Angioplasty,15000,50,Yes,Recovered,3
+Dr. Yash Agarwal,Internal Medicine,Internist,677,62,Male,Diabetes,2026-03-26,Insulin Therapy,2000,48,No,Stable,4
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,678,35,Female,Fractured Arm,2026-03-02,X-Ray and Splint,500,46,Yes,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,679,78,Male,Stroke,2026-04-17,CT Scan and Medication,10000,53,No,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,680,53,Female,Cancer,2026-03-26,Surgery and Chemotherapy,25000,55,Yes,Recovered,4
+Dr. Yash Agarwal,Internal Medicine,Internist,681,72,Male,Hypertension,2026-04-17,Medication and Counseling,1000,49,No,Stable,4
+Dr. Rahul Chawla,General Surgery,General Surgeon,682,60,Female,Appendicitis,2026-04-08,Appendectomy,8000,51,Yes,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,683,45,Male,Fractured Leg,2026-03-27,Cast and Physical Therapy,3000,51,No,Recovered,4
+Dr. Meera Verma,Cardiology,Cardiologist,684,75,Female,Heart Attack,2026-04-29,Cardiac Catheterization,18000,53,Yes,Stable,2
+Dr. Neha Sethi,Dermatology,Dermatologist,685,28,Male,Allergic Reaction,2026-03-16,Epinephrine Injection,100,46,No,Recovered,5
+Dr. Isha Joshi,Pulmonology,Pulmonologist,686,52,Female,Respiratory Infection,2026-04-12,Antibiotics and Rest,800,47,No,Stable,4
+Dr. Ananya Gupta,Oncology,Oncologist,687,67,Male,Prostate Cancer,2026-04-30,Radiation Therapy,20000,54,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,688,35,Female,Childbirth,2026-04-01,Delivery and Postnatal Care,12000,48,No,Recovered,4
+Dr. Nisha Patel,Nephrology,Nephrologist,689,50,Male,Kidney Stones,2026-04-19,Lithotripsy,6000,49,No,Recovered,3
+Dr. Priya Singh,General Medicine,Physician,690,60,Female,Osteoarthritis,2026-05-02,Physical Therapy and Pain Management,4000,50,No,Stable,4
+Dr. Meera Verma,Cardiology,Cardiologist,691,48,Female,Heart Disease,2026-04-23,Angioplasty,15000,51,Yes,Recovered,4
+Dr. Priya Singh,General Medicine,Physician,692,65,Male,Diabetes,2026-05-13,Insulin Therapy,2000,49,No,Stable,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,693,30,Female,Fractured Arm,2026-04-11,X-Ray and Splint,500,47,No,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,694,70,Male,Stroke,2026-05-24,CT Scan and Medication,10000,54,Yes,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,695,55,Female,Cancer,2026-05-12,Surgery and Chemotherapy,25000,56,No,Recovered,4
+Dr. Priya Singh,General Medicine,Physician,696,68,Male,Hypertension,2026-05-28,Medication and Counseling,1000,50,No,Stable,4
+Dr. Aditya Malhotra,Gastroenterology,Gastroenterologist,697,45,Female,Appendicitis,2026-05-08,Appendectomy,8000,52,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,698,40,Male,Fractured Leg,2026-05-06,Cast and Physical Therapy,3000,52,No,Recovered,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,699,78,Female,Heart Attack,2026-06-16,Cardiac Catheterization,18000,54,Yes,Stable,2
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,700,25,Male,Allergic Reaction,2026-04-27,Epinephrine Injection,100,47,No,Recovered,5
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,701,52,Female,Respiratory Infection,2026-05-27,Antibiotics and Rest,800,48,No,Stable,4
+Dr. Vikram Bansal,Urology,Urologist,702,58,Male,Prostate Cancer,2026-06-05,Radiation Therapy,20000,55,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,703,32,Female,Childbirth,2026-05-13,Delivery and Postnatal Care,12000,49,No,Recovered,4
+Dr. Vikram Bansal,Urology,Urologist,704,55,Male,Kidney Stones,2026-06-08,Lithotripsy,6000,50,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,705,65,Female,Osteoarthritis,2026-06-21,Physical Therapy and Pain Management,4000,51,No,Stable,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,706,55,Female,Heart Disease,2026-06-14,Angioplasty,15000,52,Yes,Recovered,3
+Dr. Yash Agarwal,Internal Medicine,Internist,707,62,Male,Diabetes,2026-06-24,Insulin Therapy,2000,50,No,Stable,4
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,708,35,Female,Fractured Arm,2026-05-31,X-Ray and Splint,500,48,Yes,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,709,78,Male,Stroke,2025-01-14,CT Scan and Medication,10000,55,No,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,710,53,Female,Cancer,2026-06-24,Surgery and Chemotherapy,25000,57,Yes,Recovered,4
+Dr. Yash Agarwal,Internal Medicine,Internist,711,72,Male,Hypertension,2025-01-14,Medication and Counseling,1000,51,No,Stable,4
+Dr. Rahul Chawla,General Surgery,General Surgeon,712,60,Female,Appendicitis,2025-01-05,Appendectomy,8000,53,Yes,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,713,45,Male,Fractured Leg,2026-06-25,Cast and Physical Therapy,3000,53,No,Recovered,4
+Dr. Meera Verma,Cardiology,Cardiologist,714,75,Female,Heart Attack,2025-01-26,Cardiac Catheterization,18000,55,Yes,Stable,2
+Dr. Neha Sethi,Dermatology,Dermatologist,715,28,Male,Allergic Reaction,2026-06-14,Epinephrine Injection,100,48,No,Recovered,5
+Dr. Isha Joshi,Pulmonology,Pulmonologist,716,52,Female,Respiratory Infection,2025-01-09,Antibiotics and Rest,800,49,No,Stable,4
+Dr. Ananya Gupta,Oncology,Oncologist,717,67,Male,Prostate Cancer,2025-01-27,Radiation Therapy,20000,56,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,718,35,Female,Childbirth,2026-06-30,Delivery and Postnatal Care,12000,50,No,Recovered,4
+Dr. Nisha Patel,Nephrology,Nephrologist,719,50,Male,Kidney Stones,2025-01-16,Lithotripsy,6000,51,No,Recovered,3
+Dr. Priya Singh,General Medicine,Physician,720,60,Female,Osteoarthritis,2025-01-29,Physical Therapy and Pain Management,4000,52,No,Stable,4
+Dr. Meera Verma,Cardiology,Cardiologist,721,48,Female,Heart Disease,2025-01-20,Angioplasty,15000,53,Yes,Recovered,4
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,723,30,Female,Fractured Arm,2025-01-08,X-Ray and Splint,500,49,No,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,724,70,Male,Stroke,2025-02-20,CT Scan and Medication,10000,56,Yes,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,725,55,Female,Cancer,2025-02-08,Surgery and Chemotherapy,25000,58,No,Recovered,4
+Dr. Priya Singh,General Medicine,Physician,726,68,Male,Hypertension,2025-02-24,Medication and Counseling,1000,52,No,Stable,4
+Dr. Aditya Malhotra,Gastroenterology,Gastroenterologist,727,45,Female,Appendicitis,2025-02-04,Appendectomy,8000,54,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,728,40,Male,Fractured Leg,2025-02-02,Cast and Physical Therapy,3000,54,No,Recovered,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,729,78,Female,Heart Attack,2025-03-15,Cardiac Catheterization,18000,56,Yes,Stable,2
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,730,25,Male,Allergic Reaction,2025-01-24,Epinephrine Injection,100,49,No,Recovered,5
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,731,52,Female,Respiratory Infection,2025-02-23,Antibiotics and Rest,800,50,No,Stable,4
+Dr. Vikram Bansal,Urology,Urologist,732,58,Male,Prostate Cancer,2025-03-04,Radiation Therapy,20000,57,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,733,32,Female,Childbirth,2025-02-09,Delivery and Postnatal Care,12000,51,No,Recovered,4
+Dr. Vikram Bansal,Urology,Urologist,734,55,Male,Kidney Stones,2025-03-07,Lithotripsy,6000,52,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,735,65,Female,Osteoarthritis,2025-03-20,Physical Therapy and Pain Management,4000,53,No,Stable,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,736,55,Female,Heart Disease,2025-03-13,Angioplasty,15000,54,Yes,Recovered,3
+Dr. Priya Singh,General Medicine,Physician,737,62,Male,Diabetes,2025-03-23,Insulin Therapy,2000,52,No,Stable,4
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,738,35,Female,Fractured Arm,2025-02-27,X-Ray and Splint,500,50,Yes,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,739,78,Male,Stroke,2025-04-14,CT Scan and Medication,10000,57,No,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,740,53,Female,Cancer,2025-03-23,Surgery and Chemotherapy,25000,59,Yes,Recovered,4
+Dr. Yash Agarwal,Internal Medicine,Internist,741,72,Male,Hypertension,2025-04-14,Medication and Counseling,1000,53,No,Stable,4
+Dr. Rahul Chawla,General Surgery,General Surgeon,742,60,Female,Appendicitis,2025-04-05,Appendectomy,8000,55,Yes,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,743,45,Male,Fractured Leg,2025-03-24,Cast and Physical Therapy,3000,55,No,Recovered,4
+Dr. Meera Verma,Cardiology,Cardiologist,744,75,Female,Heart Attack,2025-04-26,Cardiac Catheterization,18000,57,Yes,Stable,2
+Dr. Neha Sethi,Dermatology,Dermatologist,745,28,Male,Allergic Reaction,2025-03-13,Epinephrine Injection,100,50,No,Recovered,5
+Dr. Isha Joshi,Pulmonology,Pulmonologist,746,52,Female,Respiratory Infection,2025-04-09,Antibiotics and Rest,800,51,No,Stable,4
+Dr. Ananya Gupta,Oncology,Oncologist,747,67,Male,Prostate Cancer,2025-04-27,Radiation Therapy,20000,58,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,748,35,Female,Childbirth,2025-03-29,Delivery and Postnatal Care,12000,52,No,Recovered,4
+Dr. Nisha Patel,Nephrology,Nephrologist,749,50,Male,Kidney Stones,2025-04-16,Lithotripsy,6000,53,No,Recovered,3
+Dr. Priya Singh,General Medicine,Physician,750,60,Female,Osteoarthritis,2025-04-29,Physical Therapy and Pain Management,4000,54,No,Stable,4
+Dr. Meera Verma,Cardiology,Cardiologist,751,48,Female,Heart Disease,2025-04-20,Angioplasty,15000,55,Yes,Recovered,4
+Dr. Yash Agarwal,Internal Medicine,Internist,752,65,Male,Diabetes,2025-05-10,Insulin Therapy,2000,53,No,Stable,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,753,30,Female,Fractured Arm,2025-04-08,X-Ray and Splint,500,51,No,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,754,70,Male,Stroke,2025-05-21,CT Scan and Medication,10000,58,Yes,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,755,55,Female,Cancer,2025-05-09,Surgery and Chemotherapy,25000,60,No,Recovered,4
+Dr. Priya Singh,General Medicine,Physician,756,68,Male,Hypertension,2025-05-25,Medication and Counseling,1000,54,No,Stable,4
+Dr. Aditya Malhotra,Gastroenterology,Gastroenterologist,757,45,Female,Appendicitis,2025-05-05,Appendectomy,8000,56,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,758,40,Male,Fractured Leg,2025-05-03,Cast and Physical Therapy,3000,56,No,Recovered,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,759,78,Female,Heart Attack,2025-06-13,Cardiac Catheterization,18000,58,Yes,Stable,2
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,760,25,Male,Allergic Reaction,2025-04-24,Epinephrine Injection,100,51,No,Recovered,5
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,761,52,Female,Respiratory Infection,2025-05-24,Antibiotics and Rest,800,52,No,Stable,4
+Dr. Vikram Bansal,Urology,Urologist,762,58,Male,Prostate Cancer,2025-06-02,Radiation Therapy,20000,59,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,763,32,Female,Childbirth,2025-05-10,Delivery and Postnatal Care,12000,53,No,Recovered,4
+Dr. Vikram Bansal,Urology,Urologist,764,55,Male,Kidney Stones,2025-06-05,Lithotripsy,6000,54,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,765,65,Female,Osteoarthritis,2025-06-18,Physical Therapy and Pain Management,4000,55,No,Stable,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,766,55,Female,Heart Disease,2025-06-11,Angioplasty,15000,56,Yes,Recovered,3
+Dr. Priya Singh,General Medicine,Physician,767,62,Male,Diabetes,2025-06-21,Insulin Therapy,2000,54,No,Stable,4
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,768,35,Female,Fractured Arm,2025-05-28,X-Ray and Splint,500,52,Yes,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,769,78,Male,Stroke,2025-07-13,CT Scan and Medication,10000,59,No,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,770,53,Female,Cancer,2025-06-21,Surgery and Chemotherapy,25000,61,Yes,Recovered,4
+Dr. Yash Agarwal,Internal Medicine,Internist,771,72,Male,Hypertension,2025-07-13,Medication and Counseling,1000,55,No,Stable,4
+Dr. Rahul Chawla,General Surgery,General Surgeon,772,60,Female,Appendicitis,2025-07-04,Appendectomy,8000,57,Yes,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,773,45,Male,Fractured Leg,2025-06-22,Cast and Physical Therapy,3000,57,No,Recovered,4
+Dr. Meera Verma,Cardiology,Cardiologist,774,75,Female,Heart Attack,2025-07-25,Cardiac Catheterization,18000,59,Yes,Stable,2
+Dr. Neha Sethi,Dermatology,Dermatologist,775,28,Male,Allergic Reaction,2025-06-11,Epinephrine Injection,100,52,No,Recovered,5
+Dr. Isha Joshi,Pulmonology,Pulmonologist,776,52,Female,Respiratory Infection,2025-07-08,Antibiotics and Rest,800,53,No,Stable,4
+Dr. Ananya Gupta,Oncology,Oncologist,777,67,Male,Prostate Cancer,2025-07-26,Radiation Therapy,20000,60,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,778,35,Female,Childbirth,2025-06-27,Delivery and Postnatal Care,12000,54,No,Recovered,4
+Dr. Nisha Patel,Nephrology,Nephrologist,779,50,Male,Kidney Stones,2025-07-15,Lithotripsy,6000,55,No,Recovered,3
+Dr. Priya Singh,General Medicine,Physician,780,60,Female,Osteoarthritis,2025-07-28,Physical Therapy and Pain Management,4000,56,No,Stable,4
+Dr. Meera Verma,Cardiology,Cardiologist,781,48,Female,Heart Disease,2025-07-19,Angioplasty,15000,57,Yes,Recovered,4
+Dr. Yash Agarwal,Internal Medicine,Internist,782,65,Male,Diabetes,2025-08-08,Insulin Therapy,2000,55,No,Stable,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,783,30,Female,Fractured Arm,2025-07-07,X-Ray and Splint,500,53,No,Recovered,5
+Dr. Ananya Gupta,Oncology,Oncologist,785,55,Female,Cancer,2025-08-07,Surgery and Chemotherapy,25000,62,No,Recovered,4
+Dr. Priya Singh,General Medicine,Physician,786,68,Male,Hypertension,2025-08-23,Medication and Counseling,1000,56,No,Stable,4
+Dr. Aditya Malhotra,Gastroenterology,Gastroenterologist,787,45,Female,Appendicitis,2025-08-03,Appendectomy,8000,58,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,788,40,Male,Fractured Leg,2025-08-01,Cast and Physical Therapy,3000,58,No,Recovered,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,789,78,Female,Heart Attack,2025-09-11,Cardiac Catheterization,18000,60,Yes,Stable,2
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,790,25,Male,Allergic Reaction,2025-07-23,Epinephrine Injection,100,53,No,Recovered,5
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,791,52,Female,Respiratory Infection,2025-08-22,Antibiotics and Rest,800,54,No,Stable,4
+Dr. Vikram Bansal,Urology,Urologist,792,58,Male,Prostate Cancer,2025-08-31,Radiation Therapy,20000,61,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,793,32,Female,Childbirth,2025-08-08,Delivery and Postnatal Care,12000,55,No,Recovered,4
+Dr. Vikram Bansal,Urology,Urologist,794,55,Male,Kidney Stones,2025-09-03,Lithotripsy,6000,56,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,795,65,Female,Osteoarthritis,2025-09-16,Physical Therapy and Pain Management,4000,57,No,Stable,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,796,55,Female,Heart Disease,2025-09-09,Angioplasty,15000,58,Yes,Recovered,3
+Dr. Priya Singh,General Medicine,Physician,797,62,Male,Diabetes,2025-09-19,Insulin Therapy,2000,56,No,Stable,4
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,798,35,Female,Fractured Arm,2025-08-26,X-Ray and Splint,500,54,Yes,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,799,78,Male,Stroke,2025-10-11,CT Scan and Medication,10000,61,No,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,800,53,Female,Cancer,2025-09-19,Surgery and Chemotherapy,25000,63,Yes,Recovered,4
+Dr. Yash Agarwal,Internal Medicine,Internist,801,72,Male,Hypertension,2025-10-11,Medication and Counseling,1000,57,No,Stable,4
+Dr. Rahul Chawla,General Surgery,General Surgeon,802,60,Female,Appendicitis,2025-10-02,Appendectomy,8000,59,Yes,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,803,45,Male,Fractured Leg,2025-09-20,Cast and Physical Therapy,3000,59,No,Recovered,4
+Dr. Meera Verma,Cardiology,Cardiologist,804,75,Female,Heart Attack,2025-10-23,Cardiac Catheterization,18000,61,Yes,Stable,2
+Dr. Neha Sethi,Dermatology,Dermatologist,805,28,Male,Allergic Reaction,2025-09-09,Epinephrine Injection,100,54,No,Recovered,5
+Dr. Isha Joshi,Pulmonology,Pulmonologist,806,52,Female,Respiratory Infection,2025-10-06,Antibiotics and Rest,800,55,No,Stable,4
+Dr. Ananya Gupta,Oncology,Oncologist,807,67,Male,Prostate Cancer,2025-10-24,Radiation Therapy,20000,62,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,808,35,Female,Childbirth,2025-09-25,Delivery and Postnatal Care,12000,56,No,Recovered,4
+Dr. Nisha Patel,Nephrology,Nephrologist,809,50,Male,Kidney Stones,2025-10-13,Lithotripsy,6000,57,No,Recovered,3
+Dr. Priya Singh,General Medicine,Physician,810,60,Female,Osteoarthritis,2025-10-26,Physical Therapy and Pain Management,4000,58,No,Stable,4
+Dr. Meera Verma,Cardiology,Cardiologist,811,48,Female,Heart Disease,2025-10-17,Angioplasty,15000,59,Yes,Recovered,4
+Dr. Yash Agarwal,Internal Medicine,Internist,812,65,Male,Diabetes,2025-11-06,Insulin Therapy,2000,57,No,Stable,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,813,30,Female,Fractured Arm,2025-10-05,X-Ray and Splint,500,55,No,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,814,70,Male,Stroke,2025-11-17,CT Scan and Medication,10000,62,Yes,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,815,55,Female,Cancer,2025-11-05,Surgery and Chemotherapy,25000,64,No,Recovered,4
+Dr. Priya Singh,General Medicine,Physician,816,68,Male,Hypertension,2025-11-21,Medication and Counseling,1000,58,No,Stable,4
+Dr. Aditya Malhotra,Gastroenterology,Gastroenterologist,817,45,Female,Appendicitis,2025-11-01,Appendectomy,8000,60,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,818,40,Male,Fractured Leg,2025-10-30,Cast and Physical Therapy,3000,60,No,Recovered,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,819,78,Female,Heart Attack,2025-12-10,Cardiac Catheterization,18000,62,Yes,Stable,2
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,820,25,Male,Allergic Reaction,2025-10-21,Epinephrine Injection,100,55,No,Recovered,5
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,821,52,Female,Respiratory Infection,2025-11-20,Antibiotics and Rest,800,56,No,Stable,4
+Dr. Vikram Bansal,Urology,Urologist,822,58,Male,Prostate Cancer,2025-11-29,Radiation Therapy,20000,63,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,823,32,Female,Childbirth,2025-11-06,Delivery and Postnatal Care,12000,57,No,Recovered,4
+Dr. Vikram Bansal,Urology,Urologist,824,55,Male,Kidney Stones,2025-12-02,Lithotripsy,6000,58,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,825,65,Female,Osteoarthritis,2025-12-15,Physical Therapy and Pain Management,4000,59,No,Stable,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,826,55,Female,Heart Disease,2025-12-08,Angioplasty,15000,60,Yes,Recovered,3
+Dr. Priya Singh,General Medicine,Physician,827,62,Male,Diabetes,2025-12-18,Insulin Therapy,2000,58,No,Stable,4
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,828,35,Female,Fractured Arm,2025-11-24,X-Ray and Splint,500,56,Yes,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,829,78,Male,Stroke,2026-01-09,CT Scan and Medication,10000,63,No,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,830,53,Female,Cancer,2025-12-18,Surgery and Chemotherapy,25000,65,Yes,Recovered,4
+Dr. Yash Agarwal,Internal Medicine,Internist,831,72,Male,Hypertension,2026-01-09,Medication and Counseling,1000,59,No,Stable,4
+Dr. Rahul Chawla,General Surgery,General Surgeon,832,60,Female,Appendicitis,2025-12-31,Appendectomy,8000,61,Yes,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,833,45,Male,Fractured Leg,2025-12-19,Cast and Physical Therapy,3000,61,No,Recovered,4
+Dr. Meera Verma,Cardiology,Cardiologist,834,75,Female,Heart Attack,2026-01-21,Cardiac Catheterization,18000,63,Yes,Stable,2
+Dr. Neha Sethi,Dermatology,Dermatologist,835,28,Male,Allergic Reaction,2025-12-08,Epinephrine Injection,100,56,No,Recovered,5
+Dr. Isha Joshi,Pulmonology,Pulmonologist,836,52,Female,Respiratory Infection,2026-01-04,Antibiotics and Rest,800,57,No,Stable,4
+Dr. Ananya Gupta,Oncology,Oncologist,837,67,Male,Prostate Cancer,2026-01-22,Radiation Therapy,20000,64,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,838,35,Female,Childbirth,2025-12-24,Delivery and Postnatal Care,12000,58,No,Recovered,4
+Dr. Nisha Patel,Nephrology,Nephrologist,839,50,Male,Kidney Stones,2026-01-11,Lithotripsy,6000,59,No,Recovered,3
+Dr. Priya Singh,General Medicine,Physician,840,60,Female,Osteoarthritis,2026-01-24,Physical Therapy and Pain Management,4000,60,No,Stable,4
+Dr. Meera Verma,Cardiology,Cardiologist,841,48,Female,Heart Disease,2026-01-15,Angioplasty,15000,61,Yes,Recovered,4
+Dr. Yash Agarwal,Internal Medicine,Internist,842,65,Male,Diabetes,2026-02-04,Insulin Therapy,2000,59,No,Stable,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,843,30,Female,Fractured Arm,2026-01-03,X-Ray and Splint,500,57,No,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,844,70,Male,Stroke,2026-02-15,CT Scan and Medication,10000,64,Yes,Stable,2
+Dr. Priya Singh,General Medicine,Physician,846,68,Male,Hypertension,2026-02-19,Medication and Counseling,1000,60,No,Stable,4
+Dr. Aditya Malhotra,Gastroenterology,Gastroenterologist,847,45,Female,Appendicitis,2026-01-30,Appendectomy,8000,62,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,848,40,Male,Fractured Leg,2026-01-28,Cast and Physical Therapy,3000,62,No,Recovered,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,849,78,Female,Heart Attack,2026-03-10,Cardiac Catheterization,18000,64,Yes,Stable,2
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,850,25,Male,Allergic Reaction,2026-01-19,Epinephrine Injection,100,57,No,Recovered,5
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,851,52,Female,Respiratory Infection,2026-02-18,Antibiotics and Rest,800,58,No,Stable,4
+Dr. Vikram Bansal,Urology,Urologist,852,58,Male,Prostate Cancer,2026-02-27,Radiation Therapy,20000,65,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,853,32,Female,Childbirth,2026-02-04,Delivery and Postnatal Care,12000,59,No,Recovered,4
+Dr. Vikram Bansal,Urology,Urologist,854,55,Male,Kidney Stones,2026-03-02,Lithotripsy,6000,60,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,855,65,Female,Osteoarthritis,2026-03-15,Physical Therapy and Pain Management,4000,61,No,Stable,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,856,55,Female,Heart Disease,2026-03-08,Angioplasty,15000,62,Yes,Recovered,3
+Dr. Priya Singh,General Medicine,Physician,857,62,Male,Diabetes,2026-03-18,Insulin Therapy,2000,60,No,Stable,4
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,858,35,Female,Fractured Arm,2026-02-22,X-Ray and Splint,500,58,Yes,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,859,78,Male,Stroke,2026-04-09,CT Scan and Medication,10000,65,No,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,860,53,Female,Cancer,2026-03-18,Surgery and Chemotherapy,25000,67,Yes,Recovered,4
+Dr. Yash Agarwal,Internal Medicine,Internist,861,72,Male,Hypertension,2026-04-09,Medication and Counseling,1000,61,No,Stable,4
+Dr. Rahul Chawla,General Surgery,General Surgeon,862,60,Female,Appendicitis,2026-03-31,Appendectomy,8000,63,Yes,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,863,45,Male,Fractured Leg,2026-03-19,Cast and Physical Therapy,3000,63,No,Recovered,4
+Dr. Meera Verma,Cardiology,Cardiologist,864,75,Female,Heart Attack,2026-04-21,Cardiac Catheterization,18000,65,Yes,Stable,2
+Dr. Neha Sethi,Dermatology,Dermatologist,865,28,Male,Allergic Reaction,2026-03-08,Epinephrine Injection,100,58,No,Recovered,5
+Dr. Isha Joshi,Pulmonology,Pulmonologist,866,52,Female,Respiratory Infection,2026-04-04,Antibiotics and Rest,800,59,No,Stable,4
+Dr. Ananya Gupta,Oncology,Oncologist,867,67,Male,Prostate Cancer,2026-04-22,Radiation Therapy,20000,66,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,868,35,Female,Childbirth,2026-03-24,Delivery and Postnatal Care,12000,60,No,Recovered,4
+Dr. Nisha Patel,Nephrology,Nephrologist,869,50,Male,Kidney Stones,2026-04-11,Lithotripsy,6000,61,No,Recovered,3
+Dr. Priya Singh,General Medicine,Physician,870,60,Female,Osteoarthritis,2026-04-24,Physical Therapy and Pain Management,4000,62,No,Stable,4
+Dr. Meera Verma,Cardiology,Cardiologist,871,48,Female,Heart Disease,2026-04-15,Angioplasty,15000,63,Yes,Recovered,4
+Dr. Yash Agarwal,Internal Medicine,Internist,872,65,Male,Diabetes,2026-05-05,Insulin Therapy,2000,61,No,Stable,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,873,30,Female,Fractured Arm,2026-04-03,X-Ray and Splint,500,59,No,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,874,70,Male,Stroke,2026-05-16,CT Scan and Medication,10000,66,Yes,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,875,55,Female,Cancer,2026-05-04,Surgery and Chemotherapy,25000,68,No,Recovered,4
+Dr. Priya Singh,General Medicine,Physician,876,68,Male,Hypertension,2026-05-20,Medication and Counseling,1000,62,No,Stable,4
+Dr. Aditya Malhotra,Gastroenterology,Gastroenterologist,877,45,Female,Appendicitis,2026-04-30,Appendectomy,8000,64,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,878,40,Male,Fractured Leg,2026-04-28,Cast and Physical Therapy,3000,64,No,Recovered,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,879,78,Female,Heart Attack,2026-06-08,Cardiac Catheterization,18000,66,Yes,Stable,2
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,880,25,Male,Allergic Reaction,2026-04-19,Epinephrine Injection,100,59,No,Recovered,5
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,881,52,Female,Respiratory Infection,2026-05-19,Antibiotics and Rest,800,60,No,Stable,4
+Dr. Vikram Bansal,Urology,Urologist,882,58,Male,Prostate Cancer,2026-05-28,Radiation Therapy,20000,67,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,883,32,Female,Childbirth,2026-05-05,Delivery and Postnatal Care,12000,61,No,Recovered,4
+Dr. Vikram Bansal,Urology,Urologist,884,55,Male,Kidney Stones,2026-05-31,Lithotripsy,6000,62,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,885,65,Female,Osteoarthritis,2026-06-13,Physical Therapy and Pain Management,4000,63,No,Stable,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,886,55,Female,Heart Disease,2026-06-06,Angioplasty,15000,64,Yes,Recovered,3
+Dr. Priya Singh,General Medicine,Physician,887,62,Male,Diabetes,2026-06-16,Insulin Therapy,2000,62,No,Stable,4
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,888,35,Female,Fractured Arm,2026-05-23,X-Ray and Splint,500,60,Yes,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,889,78,Male,Stroke,2025-01-06,CT Scan and Medication,10000,67,No,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,890,53,Female,Cancer,2026-06-16,Surgery and Chemotherapy,25000,69,Yes,Recovered,4
+Dr. Yash Agarwal,Internal Medicine,Internist,891,72,Male,Hypertension,2025-01-06,Medication and Counseling,1000,63,No,Stable,4
+Dr. Rahul Chawla,General Surgery,General Surgeon,892,60,Female,Appendicitis,2026-06-29,Appendectomy,8000,65,Yes,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,893,45,Male,Fractured Leg,2026-06-17,Cast and Physical Therapy,3000,65,No,Recovered,4
+Dr. Meera Verma,Cardiology,Cardiologist,894,75,Female,Heart Attack,2025-01-18,Cardiac Catheterization,18000,67,Yes,Stable,2
+Dr. Neha Sethi,Dermatology,Dermatologist,895,28,Male,Allergic Reaction,2026-06-06,Epinephrine Injection,100,60,No,Recovered,5
+Dr. Isha Joshi,Pulmonology,Pulmonologist,896,52,Female,Respiratory Infection,2025-01-01,Antibiotics and Rest,800,61,No,Stable,4
+Dr. Ananya Gupta,Oncology,Oncologist,897,67,Male,Prostate Cancer,2025-01-19,Radiation Therapy,20000,68,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,898,35,Female,Childbirth,2026-06-22,Delivery and Postnatal Care,12000,62,No,Recovered,4
+Dr. Nisha Patel,Nephrology,Nephrologist,899,50,Male,Kidney Stones,2025-01-08,Lithotripsy,6000,63,No,Recovered,3
+Dr. Priya Singh,General Medicine,Physician,900,60,Female,Osteoarthritis,2025-01-21,Physical Therapy and Pain Management,4000,64,No,Stable,4
+Dr. Meera Verma,Cardiology,Cardiologist,901,48,Female,Heart Disease,2025-01-12,Angioplasty,15000,65,Yes,Recovered,4
+Dr. Yash Agarwal,Internal Medicine,Internist,902,65,Male,Diabetes,2025-02-01,Insulin Therapy,2000,63,No,Stable,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,903,30,Female,Fractured Arm,2026-07-02,X-Ray and Splint,500,61,No,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,904,70,Male,Stroke,2025-02-12,CT Scan and Medication,10000,68,Yes,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,905,55,Female,Cancer,2025-01-31,Surgery and Chemotherapy,25000,70,No,Recovered,4
+Dr. Aditya Malhotra,Gastroenterology,Gastroenterologist,907,45,Female,Appendicitis,2025-01-27,Appendectomy,8000,66,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,908,40,Male,Fractured Leg,2025-01-25,Cast and Physical Therapy,3000,66,No,Recovered,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,909,78,Female,Heart Attack,2025-03-07,Cardiac Catheterization,18000,68,Yes,Stable,2
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,910,25,Male,Allergic Reaction,2025-01-16,Epinephrine Injection,100,61,No,Recovered,5
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,911,52,Female,Respiratory Infection,2025-02-15,Antibiotics and Rest,800,62,No,Stable,4
+Dr. Vikram Bansal,Urology,Urologist,912,58,Male,Prostate Cancer,2025-02-24,Radiation Therapy,20000,69,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,913,32,Female,Childbirth,2025-02-01,Delivery and Postnatal Care,12000,63,No,Recovered,4
+Dr. Vikram Bansal,Urology,Urologist,914,55,Male,Kidney Stones,2025-02-27,Lithotripsy,6000,64,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,915,65,Female,Osteoarthritis,2025-03-12,Physical Therapy and Pain Management,4000,65,No,Stable,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,916,55,Female,Heart Disease,2025-03-05,Angioplasty,15000,66,Yes,Recovered,3
+Dr. Priya Singh,General Medicine,Physician,917,62,Male,Diabetes,2025-03-15,Insulin Therapy,2000,64,No,Stable,4
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,918,35,Female,Fractured Arm,2025-02-19,X-Ray and Splint,500,62,Yes,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,919,78,Male,Stroke,2025-04-06,CT Scan and Medication,10000,69,No,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,920,53,Female,Cancer,2025-03-15,Surgery and Chemotherapy,25000,71,Yes,Recovered,4
+Dr. Priya Singh,General Medicine,Physician,921,72,Male,Hypertension,2025-04-06,Medication and Counseling,1000,65,No,Stable,4
+Dr. Rahul Chawla,General Surgery,General Surgeon,922,60,Female,Appendicitis,2025-03-28,Appendectomy,8000,67,Yes,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,923,45,Male,Fractured Leg,2025-03-16,Cast and Physical Therapy,3000,67,No,Recovered,4
+Dr. Meera Verma,Cardiology,Cardiologist,924,75,Female,Heart Attack,2025-04-18,Cardiac Catheterization,18000,69,Yes,Stable,2
+Dr. Neha Sethi,Dermatology,Dermatologist,925,28,Male,Allergic Reaction,2025-03-05,Epinephrine Injection,100,62,No,Recovered,5
+Dr. Isha Joshi,Pulmonology,Pulmonologist,926,52,Female,Respiratory Infection,2025-04-01,Antibiotics and Rest,800,63,No,Stable,4
+Dr. Ananya Gupta,Oncology,Oncologist,927,67,Male,Prostate Cancer,2025-04-19,Radiation Therapy,20000,70,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,928,35,Female,Childbirth,2025-03-21,Delivery and Postnatal Care,12000,64,No,Recovered,4
+Dr. Nisha Patel,Nephrology,Nephrologist,929,50,Male,Kidney Stones,2025-04-08,Lithotripsy,6000,65,No,Recovered,3
+Dr. Priya Singh,General Medicine,Physician,930,60,Female,Osteoarthritis,2025-04-21,Physical Therapy and Pain Management,4000,66,No,Stable,4
+Dr. Meera Verma,Cardiology,Cardiologist,931,48,Female,Heart Disease,2025-04-12,Angioplasty,15000,67,Yes,Recovered,4
+Dr. Yash Agarwal,Internal Medicine,Internist,932,65,Male,Diabetes,2025-05-02,Insulin Therapy,2000,65,No,Stable,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,933,30,Female,Fractured Arm,2025-03-31,X-Ray and Splint,500,63,No,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,934,70,Male,Stroke,2025-05-13,CT Scan and Medication,10000,70,Yes,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,935,55,Female,Cancer,2025-05-01,Surgery and Chemotherapy,25000,72,No,Recovered,4
+Dr. Yash Agarwal,Internal Medicine,Internist,936,68,Male,Hypertension,2025-05-17,Medication and Counseling,1000,66,No,Stable,4
+Dr. Aditya Malhotra,Gastroenterology,Gastroenterologist,937,45,Female,Appendicitis,2025-04-27,Appendectomy,8000,68,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,938,40,Male,Fractured Leg,2025-04-25,Cast and Physical Therapy,3000,68,No,Recovered,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,939,78,Female,Heart Attack,2025-06-05,Cardiac Catheterization,18000,70,Yes,Stable,2
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,940,25,Male,Allergic Reaction,2025-04-16,Epinephrine Injection,100,63,No,Recovered,5
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,941,52,Female,Respiratory Infection,2025-05-16,Antibiotics and Rest,800,64,No,Stable,4
+Dr. Vikram Bansal,Urology,Urologist,942,58,Male,Prostate Cancer,2025-05-25,Radiation Therapy,20000,71,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,943,32,Female,Childbirth,2025-05-02,Delivery and Postnatal Care,12000,65,No,Recovered,4
+Dr. Vikram Bansal,Urology,Urologist,944,55,Male,Kidney Stones,2025-05-28,Lithotripsy,6000,66,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,945,65,Female,Osteoarthritis,2025-06-10,Physical Therapy and Pain Management,4000,67,No,Stable,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,946,55,Female,Heart Disease,2025-06-03,Angioplasty,15000,68,Yes,Recovered,3
+Dr. Priya Singh,General Medicine,Physician,947,62,Male,Diabetes,2025-06-13,Insulin Therapy,2000,66,No,Stable,4
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,948,35,Female,Fractured Arm,2025-05-20,X-Ray and Splint,500,64,Yes,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,949,78,Male,Stroke,2025-07-05,CT Scan and Medication,10000,71,No,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,950,53,Female,Cancer,2025-06-13,Surgery and Chemotherapy,25000,73,Yes,Recovered,4
+Dr. Priya Singh,General Medicine,Physician,951,72,Male,Hypertension,2025-07-05,Medication and Counseling,1000,67,No,Stable,4
+Dr. Rahul Chawla,General Surgery,General Surgeon,952,60,Female,Appendicitis,2025-06-26,Appendectomy,8000,69,Yes,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,953,45,Male,Fractured Leg,2025-06-14,Cast and Physical Therapy,3000,69,No,Recovered,4
+Dr. Meera Verma,Cardiology,Cardiologist,954,75,Female,Heart Attack,2025-07-17,Cardiac Catheterization,18000,71,Yes,Stable,2
+Dr. Neha Sethi,Dermatology,Dermatologist,955,28,Male,Allergic Reaction,2025-06-03,Epinephrine Injection,100,64,No,Recovered,5
+Dr. Isha Joshi,Pulmonology,Pulmonologist,956,52,Female,Respiratory Infection,2025-06-30,Antibiotics and Rest,800,65,No,Stable,4
+Dr. Ananya Gupta,Oncology,Oncologist,957,67,Male,Prostate Cancer,2025-07-18,Radiation Therapy,20000,72,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,958,35,Female,Childbirth,2025-06-19,Delivery and Postnatal Care,12000,66,No,Recovered,4
+Dr. Nisha Patel,Nephrology,Nephrologist,959,50,Male,Kidney Stones,2025-07-07,Lithotripsy,6000,67,No,Recovered,3
+Dr. Priya Singh,General Medicine,Physician,960,60,Female,Osteoarthritis,2025-07-20,Physical Therapy and Pain Management,4000,68,No,Stable,4
+Dr. Meera Verma,Cardiology,Cardiologist,961,48,Female,Heart Disease,2025-07-11,Angioplasty,15000,69,Yes,Recovered,4
+Dr. Yash Agarwal,Internal Medicine,Internist,962,65,Male,Diabetes,2025-07-31,Insulin Therapy,2000,67,No,Stable,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,963,30,Female,Fractured Arm,2025-06-29,X-Ray and Splint,500,65,No,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,964,70,Male,Stroke,2025-08-11,CT Scan and Medication,10000,72,Yes,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,965,55,Female,Cancer,2025-07-30,Surgery and Chemotherapy,25000,74,No,Recovered,4
+Dr. Yash Agarwal,Internal Medicine,Internist,966,68,Male,Hypertension,2025-08-15,Medication and Counseling,1000,68,No,Stable,4
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,968,40,Male,Fractured Leg,2025-07-24,Cast and Physical Therapy,3000,70,No,Recovered,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,969,78,Female,Heart Attack,2025-09-03,Cardiac Catheterization,18000,72,Yes,Stable,2
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,970,25,Male,Allergic Reaction,2025-07-15,Epinephrine Injection,100,65,No,Recovered,5
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,971,52,Female,Respiratory Infection,2025-08-14,Antibiotics and Rest,800,66,No,Stable,4
+Dr. Vikram Bansal,Urology,Urologist,972,58,Male,Prostate Cancer,2025-08-23,Radiation Therapy,20000,73,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,973,32,Female,Childbirth,2025-07-31,Delivery and Postnatal Care,12000,67,No,Recovered,4
+Dr. Vikram Bansal,Urology,Urologist,974,55,Male,Kidney Stones,2025-08-26,Lithotripsy,6000,68,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,975,65,Female,Osteoarthritis,2025-09-08,Physical Therapy and Pain Management,4000,69,No,Stable,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,976,55,Female,Heart Disease,2025-09-01,Angioplasty,15000,70,Yes,Recovered,3
+Dr. Priya Singh,General Medicine,Physician,977,62,Male,Diabetes,2025-09-11,Insulin Therapy,2000,68,No,Stable,4
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,978,35,Female,Fractured Arm,2025-08-18,X-Ray and Splint,500,66,Yes,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,979,78,Male,Stroke,2025-10-03,CT Scan and Medication,10000,73,No,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,980,53,Female,Cancer,2025-09-11,Surgery and Chemotherapy,25000,75,Yes,Recovered,4
+Dr. Priya Singh,General Medicine,Physician,981,72,Male,Hypertension,2025-10-03,Medication and Counseling,1000,69,No,Stable,4
+Dr. Aditya Malhotra,Gastroenterology,Gastroenterologist,982,60,Female,Appendicitis,2025-09-24,Appendectomy,8000,71,Yes,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,983,45,Male,Fractured Leg,2025-09-12,Cast and Physical Therapy,3000,71,No,Recovered,4
+Dr. Meera Verma,Cardiology,Cardiologist,984,75,Female,Heart Attack,2025-10-15,Cardiac Catheterization,18000,73,Yes,Stable,2
+Dr. Neha Sethi,Dermatology,Dermatologist,985,28,Male,Allergic Reaction,2025-09-01,Epinephrine Injection,100,67,No,Recovered,5
+Dr. Isha Joshi,Pulmonology,Pulmonologist,986,52,Female,Respiratory Infection,2025-09-28,Antibiotics and Rest,800,68,No,Stable,4
+Dr. Ananya Gupta,Oncology,Oncologist,987,67,Male,Prostate Cancer,2025-10-16,Radiation Therapy,20000,74,No,Recovered,3
+Dr. Sanya Rao,Obstetrics,Obstetrician,988,35,Female,Childbirth,2025-09-17,Delivery and Postnatal Care,12000,68,No,Recovered,4
+Dr. Nisha Patel,Nephrology,Nephrologist,989,50,Male,Kidney Stones,2025-10-05,Lithotripsy,6000,69,No,Recovered,3
+Dr. Priya Singh,General Medicine,Physician,990,60,Female,Osteoarthritis,2025-10-18,Physical Therapy and Pain Management,4000,70,No,Stable,4
+Dr. Meera Verma,Cardiology,Cardiologist,991,48,Female,Heart Disease,2025-10-09,Angioplasty,15000,71,Yes,Recovered,4
+Dr. Yash Agarwal,Internal Medicine,Internist,992,65,Male,Diabetes,2025-10-29,Insulin Therapy,2000,69,No,Stable,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,993,30,Female,Fractured Arm,2025-09-27,X-Ray and Splint,500,67,No,Recovered,5
+Dr. Arjun Kapoor,Neurology,Neurologist,994,70,Male,Stroke,2025-11-09,CT Scan and Medication,10000,74,Yes,Stable,2
+Dr. Ananya Gupta,Oncology,Oncologist,995,55,Female,Cancer,2025-10-28,Surgery and Chemotherapy,25000,76,No,Recovered,4
+Dr. Yash Agarwal,Internal Medicine,Internist,996,68,Male,Hypertension,2025-11-13,Medication and Counseling,1000,70,No,Stable,4
+Dr. Rahul Chawla,General Surgery,General Surgeon,997,45,Female,Appendicitis,2025-10-24,Appendectomy,8000,72,No,Recovered,3
+Dr. Rohan Mehta,Orthopedics,Orthopedic Surgeon,998,40,Male,Fractured Leg,2025-10-22,Cast and Physical Therapy,3000,72,No,Recovered,4
+Dr. Aarav Sharma,Cardiology,Cardiologist,999,78,Female,Heart Attack,2025-12-02,Cardiac Catheterization,18000,74,Yes,Stable,2
+Dr. Kabir Khan,Emergency Medicine,Emergency Physician,1000,25,Male,Allergic Reaction,2025-10-13,Epinephrine Injection,100,68,No,Recovered,5
