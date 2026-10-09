@@ -18,7 +18,7 @@ The application allows users to explore hospital data, view statistics, analyze 
 - 🔎 Data exploration and statistics
 - 🖥️ Interactive desktop GUI
 - 📂 CSV dataset integration
-
+`
 ## 🛠️ Technologies Used
 
 - Python
@@ -64,4 +64,28 @@ pip install pandas numpy matplotlib
 ```bash
 python MAIN.PY
 ```
+## 📸 Project Screenshots
 
+### 🏠 Home Page
+![Home Page](home.png)
+
+### 📊 Dashboard
+![Dashboard](dashboard.png)
+
+### 📂 Load Data
+![Load Data](load_data.png)
+
+### 🏥 Hospital Data
+![Hospital Data](hospital_data.png)
+
+### 📈 Hospital Statistics
+![Hospital Statistics](hospital_statistics.png)
+
+### 📉 Graphics Visuals
+![Graphics Visuals](graphics_visuals.png)
+
+### 📊 Additional Graphics
+![Additional Graphics](graphics_visuals2.png)
+
+### ℹ️ About Page
+![About Page](About.png)
